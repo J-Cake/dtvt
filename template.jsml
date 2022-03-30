@@ -16,7 +16,7 @@ html lang = 'en' {
 
         $include file = 'include/nav.jsml';
 
-        article id = 'main' {
+        section id = 'main-grid' {
             $include file = '${content}' content-type = '${content_type}';
         }
 

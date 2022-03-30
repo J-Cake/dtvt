@@ -1,0 +1,17 @@
+section class = 'max-width tab-list' id = 'content' {
+
+    script src = '/assets/src/tab-controller.js' defer = 'true' []
+    script defer = 'true' [ window.addEventListener('load', () => window.tabController(document.querySelector('.tab-list'))); ]
+
+    section class = 'tab-body' {
+
+        $include file = 'include/team-member.jsml' member = 'stephanie-hobourn';
+        $include file = 'include/team-member.jsml' member = 'phi-bui';
+        $include file = 'include/team-member.jsml' member = 'jacob-schneider';
+        $include file = 'include/team-member.jsml' member = 'clayton-phillips';
+        $include file = 'include/team-member.jsml' member = 'nuulaiti-junior-lale';
+        $include file = 'include/team-member.jsml' member = 'taleb-dib';
+
+    }
+
+}
