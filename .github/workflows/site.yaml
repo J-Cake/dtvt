@@ -30,6 +30,7 @@ jobs:
 
       - name: Build
         run: |
+          echo $PWD
           mkdir -p build/site/
           node ./build.mjs pages
 
