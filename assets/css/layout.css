@@ -6,3 +6,42 @@ Layout.css defines general behaviours affecting layouts of various elements whic
 .max-width {
     max-width: var(--max-width);
 }
+
+.horizontal {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.horizontal > * {
+    flex: 1;
+}
+
+.tab-list .tab-body {
+    max-width: inherit;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    overflow-x: hidden;
+    flex-wrap: nowrap;
+}
+
+.tab-list .tab-body .tab {
+    max-width: inherit;
+    min-width: 100%;
+    display: block;
+}
+
+.tab-list .tab-header {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.tab-list .tab-header .tab-header-button {
+    flex: 1;
+    min-width: -moz-fit-content;
+    min-width: -webkit-fill-available;
+    min-width: fit-content;
+}
