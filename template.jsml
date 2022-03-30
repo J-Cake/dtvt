@@ -1,0 +1,24 @@
+html lang = 'en' {
+    head {
+
+        meta charset = 'utf-8';
+        meta name = 'viewport' content = 'width=device-width, initial-scale=1';
+
+        title (page_title)
+
+        link rel = 'stylesheet' href = '/assets/css/master.css';
+        link rel = 'stylesheet' href = '/assets/css/layout.css';
+        link rel = 'stylesheet' href = '/assets/css/styles.css';
+
+    }
+
+    body {
+
+        $include file = 'include/nav.jsml';
+
+        article id = 'main' {
+            $include file = '${content}' content-type = '${content_type}';
+        }
+
+    }
+}

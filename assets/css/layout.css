@@ -1,0 +1,8 @@
+/*
+# layout.css
+Layout.css defines general behaviours affecting layouts of various elements which are designed to be interacted with through classes.
+*/
+
+.max-width {
+    max-width: var(--max-width);
+}
