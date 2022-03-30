@@ -20,6 +20,11 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: "17"
+        
+      - name: mkdir
+        run: |
+          mkdir -p build/static
+          mkdir -p build/site
       
       - name: Get Template
         uses: dsaltares/fetch-gh-release-asset@master
@@ -30,8 +35,6 @@ jobs:
 
       - name: Build
         run: |
-          echo $PWD
-          mkdir -p build/site/
           node ./build.mjs pages
 
       - name: Deploy
