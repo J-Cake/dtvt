@@ -38,7 +38,10 @@ jobs:
           node ./build.mjs pages
 
       - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@v4
+        uses: appleboy/scp-action@master
         with:
-          folder: build/site
-          branch: pages
+          host: dothething.jschneiderprojects.com.au 
+          username: dothething
+          key: ${{ secrets.JSCHNEIDERPROJECTS_DEPLOY_KEY }}
+          source: "build/site/"
+          target: "/var/www/dothething"
