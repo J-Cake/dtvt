@@ -46,8 +46,7 @@ pre, code {
     grid-template-columns: 1fr minmax(0, min(100vw, var(--max-width))) 1fr;
     grid-template-rows: auto 1fr auto;
 
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
 
     grid-template-areas: 'header header header' 'left content right' 'footer footer footer';
 }
@@ -76,12 +75,12 @@ h1, h2 {
 a {
     font-weight: 750;
     color: var(--foreground);
+    transition: color 0.3s;
     text-decoration: none;
 }
 
 a:hover {
     color: var(--accent);
-    transition: color 0.3s;
 }
 
 /* Nav */
@@ -152,5 +151,5 @@ header nav.horizontal a {
 }
 
 .tab-list .tab-header .tab-header-button.active {
-    border-bottom: 2px solid var(--accent);
+    border-bottom: 3px solid var(--accent);
 }
