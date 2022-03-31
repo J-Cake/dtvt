@@ -35,7 +35,7 @@ jobs:
 
       - name: Build
         run: |
-          node build.mjs pages && cp -rf assets build/site
+          export TEMPLATE=build/template.js && node build.mjs pages && cp -rf assets build/site
 
       - name: Deploy
         uses: appleboy/scp-action@master
