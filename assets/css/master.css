@@ -12,9 +12,20 @@ You'll notice, there are no rules targeting very specific elements, apart from t
     padding: 0;
     overflow-x: hidden;
 
-    --foreground: #333;
+    --foreground: rgb(51, 51, 51);
+    --background: rgb(248, 217, 245);
+    --accent: rgb(223, 8, 169);
+
+    /* --foreground: #333;
     --background: #fff;
-    --accent: rgb(67, 188, 144);
+    --accent: rgb(67, 188, 144); */
+
+    background: var(--background);
+
+    /* background-image: url(https://cdn.discordapp.com/attachments/948425177585287239/958319961032519770/unknown.png); */
+    background-image: url(/assets/res/img/big-homepage_heart.png), url(/assets/res/img/19-198517_transparent-heart-background-png-transparent-background-pink-hearts.png);
+    background-size: fit;
+    background-repeat: no-repeat;
 }
 
 *:not(pre, code) {
@@ -53,7 +64,9 @@ pre, code {
 
 #content {
     grid-area: content;
-    
+    /* background: var(--background); */
+    /* backdrop-filter: brightness(10) opacity(0.85) blur(24px); */
+    padding: 24px;
 }
 
 /* General */
@@ -70,6 +83,10 @@ article h1, article h1 * {
 h1, h2 {
     position: sticky;
     top: 0;
+}
+
+article {
+    text-align: justify;
 }
 
 a {
