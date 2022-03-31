@@ -1,3 +1,18 @@
 section id = 'content' {
-    h1 [Hello World]
+    h1 [Do-the-thing] (/* Group name and spelling convention to be decided */)
+
+    article {
+        $include file = 'page/blurb/team.md' content_type = 'text/html+md';
+        $include file = 'page/blurb/team.md' content_type = 'text/html+md';
+        $include file = 'page/blurb/team.md' content_type = 'text/html+md';
+        $include file = 'page/blurb/team.md' content_type = 'text/html+md';
+        $include file = 'page/blurb/team.md' content_type = 'text/html+md';
+        $include file = 'page/blurb/team.md' content_type = 'text/html+md';
+        $include file = 'page/blurb/team.md' content_type = 'text/html+md';
+        $include file = 'page/blurb/team.md' content_type = 'text/html+md';
+        $include file = 'page/blurb/team.md' content_type = 'text/html+md';
+        $include file = 'page/blurb/team.md' content_type = 'text/html+md';
+        $include file = 'page/blurb/team.md' content_type = 'text/html+md';
+        $include file = 'page/blurb/team.md' content_type = 'text/html+md';
+    }
 }

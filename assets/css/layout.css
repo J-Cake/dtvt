@@ -9,8 +9,13 @@ Layout.css defines general behaviours affecting layouts of various elements whic
 
 .horizontal {
     display: flex;
+    align-items: center;
     flex-direction: row;
     width: 100%;
+}
+
+.horizontal.between {
+    justify-content: space-between;
 }
 
 .horizontal > * {

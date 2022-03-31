@@ -17,8 +17,9 @@ window.tabController = function (container) {
             });
 
         tabHeader.appendChild(tabButton);
-
     }
+
+    
 
     container.insertBefore(tabHeader, tabBody);
 

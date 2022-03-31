@@ -11,6 +11,10 @@ You'll notice, there are no rules targeting very specific elements, apart from t
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+
+    --foreground: #333;
+    --background: #fff;
+    --accent: rgb(67, 188, 144);
 }
 
 *:not(pre, code) {
@@ -31,6 +35,10 @@ pre, code {
     font-family: InconsolataLocal;
     src: url(/assets/res/inconsolata.ttf)
 }
+@font-face {
+    font-family: RemixLocal;
+    src: url(/assets/res/remixicon.ttf)
+}
 
 #main-grid {
     display: grid;
@@ -49,7 +57,100 @@ pre, code {
     
 }
 
-h1 {
-    font-size: 28pt;
+/* General */
+
+h1, h1 * {
+    font-size: 36pt;
     font-weight: 900;
+}
+
+article h1, article h1 * {
+    font-size: 28pt;
+}
+
+h1, h2 {
+    position: sticky;
+    top: 0;
+}
+
+a {
+    font-weight: 750;
+    color: var(--foreground);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--accent);
+    transition: color 0.3s;
+}
+
+/* Nav */
+
+header nav.horizontal {
+    justify-content: flex-end;
+    flex: 1;
+}
+
+header input[type='checkbox'] {
+    appearance: none;
+}
+header input[type='checkbox']:after {
+    display: block;
+    font-family: RemixLocal;
+    content: '\00EEBE'; /* Replace with collapse icon */
+    font-size: 14pt;
+    text-align: center;
+
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    line-height: 64px;
+}
+
+header input[type='checkbox']:after:hover {
+    background: var(--background);
+    filter: brightness(0.8);
+    transition: filter 0.3s;
+}
+header input[type='checkbox']:checked + nav.horizontal {
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav.horizontal a {
+    text-align: center;
+    line-height: 64px;
+    min-width: -moz-fit-content;
+    min-width: -webkit-fill-available;
+    min-width: fit-content;
+    max-width: 180px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-decoration: none;
+    color: var(--foreground);
+    font-weight: 800;
+    
+    text-transform: uppercase;
+}
+
+/* Tab list */
+
+.tab-list .tab-header .tab-header-button {
+    border: none;
+    border-bottom: 3px solid var(--foreground);
+    transition-duration: 0.3s;
+    background: var(--background);
+    line-height: 42px;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+.tab-header-button:hover {
+    background: var(--background);
+    filter: brightness(0.8);
+}
+
+.tab-list .tab-header .tab-header-button.active {
+    border-bottom: 2px solid var(--accent);
 }

@@ -6,3 +6,7 @@ Like layout.css, except defines non-layout-related properties, such as typograph
 .justify {
     text-align: justify;
 }
+
+.icon {
+    font-family: RemixLocal;
+}

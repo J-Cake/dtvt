@@ -1,4 +1,11 @@
-nav class = 'horizontal' {
-    a href = '/' [Home]
-    a href = '/team.html' [Team]
+header {
+
+    input type = 'checkbox' class = 'icon';
+
+    nav class = 'horizontal' {
+        a href = '/' [Home]
+        a href = '/team.html' [Team]
+        a href = '/careers.html' [Careers]
+    }
+
 }
