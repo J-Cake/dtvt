@@ -35,13 +35,15 @@ jobs:
 
       - name: Build
         run: |
-          node ./build.mjs pages
+          node build.mjs pages
+          cp assets build/site
 
       - name: Deploy
-        uses: appleboy/scp-action@master
+        uses: nogsantos/scp-deploy@master
         with:
-          host: jschneiderprojects.com.au 
-          username: dothething
-          key: ${{ secrets.JSCHNEIDERPROJECTS_DEPLOY_KEY }}
-          source: "build/site/"
-          target: "/var/www/dothething"
+          src: build/site
+          host: jschneiderprojects.com.au
+          remote: /var/www/dothething
+          port: 22
+          user: dothething
+          key: ${{ secrets.SSH_KEY }}
