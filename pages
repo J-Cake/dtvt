@@ -1,2 +1,0 @@
-build/site/index.html, template.jsml, page_title: Home, content: page/index.jsml, content_type: text/jsml
-build/site/team.html, template.jsml, page_title: Team, content: page/team.jsml, content_type: text/jsml

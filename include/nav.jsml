@@ -1,4 +1,0 @@
-nav class = 'horizontal' {
-    a href = '/' [Home]
-    a href = '/team.html' [Team]
-}
