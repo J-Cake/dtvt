@@ -16,26 +16,54 @@ Like layout.css, except defines non-layout-related properties, such as typograph
     background: var(--background);
 }
 
-ul.dropdown {
-    position: relative;
+div.dropdown {
     display: block;
     margin: 0;
     padding: 0;
     display: flex;
     flex-direction: column;
+    counter-set: dropdown-item 0;
+    counter-reset: dropdown-item;
+    width: 100%;
 }
 
-ul.dropdown > :first-child:before {
+div.dropdown > label:before {
     font-family: RemixLocal;
     content: '\00EA50';
     display: inline-block;
     padding: 0 4px;
 }
 
-ul.dropdown :not(:first-child) {
-    height: 0;
-    transition: height: 0.3s;
-}
-ul.dropdown:hover :not(:first-child) {
+div.dropdown label + ul.dropdown-content {
     height: fit-content;
+    counter-increment: dropdown-item;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 4px;
+    transition: height 0.3s;
+
+    /* position: absolute; */
+    top: 64px;
+    min-width: fit-content;
+    max-width: 180px;
+    width: 100%;
+    z-index: 10;
+    background: var(--background);
+}
+
+div.dropdown label + ul.dropdown-content > * {
+    --height: 32px;
+    line-height: var(--height);
+    transition-property: max-height, opacity;
+    transition-duration: 0.3s;
+    max-height: 0;
+    opacity: 0;
+}
+
+div.dropdown:hover label + ul.dropdown-content > * {
+    max-height: var(--height);
+    opacity: 1;
 }

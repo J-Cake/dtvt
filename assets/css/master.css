@@ -122,6 +122,18 @@ article img {
 
 /* Nav */
 
+/* The 3 represents the number of children in $`header nav.horizontal`*/
+@media screen and (max-width: calc(3 * 180px)) {
+    header nav.horizontal {
+        flex-direction: column;
+    }
+
+    div.dropdown label + ul.dropdown-content {
+        position: relative;
+        top: initial;
+    }
+}
+
 header nav.horizontal {
     justify-content: flex-end;
     flex: 1;

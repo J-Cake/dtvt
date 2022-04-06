@@ -6,11 +6,17 @@ header {
         a href = '/' [Home]
         a href = '/team.html' [Team]
     
-        ul class = 'dropdown' {
-            span [Technologies]
-            a href = '/technologies/chatbots.html' [Chatbots]
+        div class = 'dropdown' {
+            label [Technologies]
 
-            span []
+            ul class = 'dropdown-content' {
+                a href = '/technologies/cybersecurity.html' [Cybersecurity]
+                a href = '/technologies/chatbots.html' [Chatbots]
+                a href = '/technologies/raspberry-pi-and-arduino.html' [Raspberry Pi and Arduino]
+                a href = '/technologies/robots.html' [Robots]
+                
+                []
+            }
         }
     }
 

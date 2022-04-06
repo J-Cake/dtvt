@@ -9,7 +9,7 @@ Layout.css defines general behaviours affecting layouts of various elements whic
 
 .horizontal {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: row;
     width: 100%;
 }
