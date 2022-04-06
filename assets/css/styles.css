@@ -10,3 +10,32 @@ Like layout.css, except defines non-layout-related properties, such as typograph
 .icon {
     font-family: RemixLocal;
 }
+
+.darken {
+    filter: brightness(0.8);
+    background: var(--background);
+}
+
+ul.dropdown {
+    position: relative;
+    display: block;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+ul.dropdown > :first-child:before {
+    font-family: RemixLocal;
+    content: '\00EA50';
+    display: inline-block;
+    padding: 0 4px;
+}
+
+ul.dropdown :not(:first-child) {
+    height: 0;
+    transition: height: 0.3s;
+}
+ul.dropdown:hover :not(:first-child) {
+    height: fit-content;
+}

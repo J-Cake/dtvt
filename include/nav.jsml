@@ -5,7 +5,13 @@ header {
     nav class = 'horizontal' {
         a href = '/' [Home]
         a href = '/team.html' [Team]
-        a href = '/careers.html' [Careers]
+    
+        ul class = 'dropdown' {
+            span [Technologies]
+            a href = '/technologies/chatbots.html' [Chatbots]
+
+            span []
+        }
     }
 
 }

@@ -12,20 +12,18 @@ You'll notice, there are no rules targeting very specific elements, apart from t
     padding: 0;
     overflow-x: hidden;
 
-    --foreground: rgb(51, 51, 51);
-    --background: rgb(248, 217, 245);
-    --accent: rgb(223, 8, 169);
-
-    /* --foreground: #333;
+    --foreground: #333;
     --background: #fff;
-    --accent: rgb(67, 188, 144); */
+    --accent: rgb(67, 188, 144);
 
     background: var(--background);
 
-    /* background-image: url(https://cdn.discordapp.com/attachments/948425177585287239/958319961032519770/unknown.png); */
+    /* --foreground: rgb(70, 62, 68);
+    --background: rgb(248, 217, 245);
+    --accent: rgb(201, 108, 177);
     background-image: url(/assets/res/img/big-homepage_heart.png), url(/assets/res/img/19-198517_transparent-heart-background-png-transparent-background-pink-hearts.png);
     background-size: fit;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
 }
 
 *:not(pre, code) {
@@ -33,6 +31,12 @@ You'll notice, there are no rules targeting very specific elements, apart from t
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
+
+/* h1:before, h1:after, h2:before, h2:after, h3:before, h3:after, h4:before, h4:after, h5:before, h5:after, h6:before, h6:after { /* yw *\/
+    font-family: RemixLocal;
+    color: var(--accent);
+    content: '\00EE0A';
+} */
 
 pre, code {
     font-family: Inconsolata, InconsolataLocal, monospace;
@@ -55,7 +59,7 @@ pre, code {
     display: grid;
 
     grid-template-columns: 1fr minmax(0, min(100vw, var(--max-width))) 1fr;
-    grid-template-rows: auto 1fr auto;
+    grid-template-rows: auto minmax(100vh, auto) auto;
 
     width: 100%;
 
@@ -69,6 +73,11 @@ pre, code {
     padding: 24px;
 }
 
+#footer {
+    grid-area: footer;
+    padding: 24px;
+}
+
 /* General */
 
 h1, h1 * {
@@ -76,8 +85,13 @@ h1, h1 * {
     font-weight: 900;
 }
 
-article h1, article h1 * {
+article h1, article h1 *, article img {
     font-size: 28pt;
+    clear: both;
+}
+
+article h1, article h2, article h3, article h4, article h5, article h6 {
+    clear: both;
 }
 
 h1, h2 {
@@ -98,6 +112,12 @@ a {
 
 a:hover {
     color: var(--accent);
+}
+
+article img {
+    max-width: 25%;
+    float: left;
+    margin: 10px;
 }
 
 /* Nav */
@@ -133,7 +153,7 @@ header input[type='checkbox']:checked + nav.horizontal {
     align-items: center;
 }
 
-header nav.horizontal a {
+header nav.horizontal > * {
     text-align: center;
     line-height: 64px;
     min-width: -moz-fit-content;
