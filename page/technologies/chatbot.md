@@ -58,7 +58,7 @@ Alexa, Google Assistant and siri are examples of contextual chatbots. 
 3. ### Artificial Intelligence
     Artificial intelligence is the science of training machines to perform human tasks (1). Though this isn’t obvious in basic implementations of chatbots, AI will play a huge role in the future as chatbots go beyond just an onscreen presence. 
 
-https://www.sas.com/en_au/insights/analytics/machine-learning.html#:~:text=Machine%20learning%20is%20a%20method,decisions%20with%20minimal%20human%20intervention.
+[_Machine learning is a method,decisions with minimal human intervention_](https://www.sas.com/en_au/insights/analytics/machine-learning.html#:~:text=Machine%20learning%20is%20a%20method,decisions%20with%20minimal%20human%20intervention).
 
 # The impact of chatbots
 Many industries today have adapted a self-service model to increase productivity and lower expenditure. One of the key components for this model is the deployment of chatbots to support online customer sales and service.
