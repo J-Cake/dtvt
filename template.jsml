@@ -9,7 +9,6 @@ html lang = 'en' {
         link rel = 'stylesheet' href = '/assets/css/master.css';
         link rel = 'stylesheet' href = '/assets/css/layout.css';
         link rel = 'stylesheet' href = '/assets/css/styles.css';
-
     }
 
     body {
@@ -18,6 +17,12 @@ html lang = 'en' {
 
         section id = 'main-grid' {
             $include file = '${content}' content-type = '${content_type}';
+        }
+
+        $include file = 'include/footer.jsml';
+
+        script src = '/assets/src/click.js' {
+            
         }
 
     }
