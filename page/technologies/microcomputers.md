@@ -14,11 +14,11 @@ Most Raspberry Pis are about the size of a credit card. They typically have most
 As can be seen here, the ports allow the computer to fulfil the role of a home PC if required, and at the very least supports a multitude of peripherals for whichever project is undertaken. The operating system used is always Linux, however beginners are encouraged to start with Raspberry Pi OS, Raspberry Pi’s own distribution based on Debian OS. By attaching a keyboard, mouse, and an external display, the Pi can be used as a desktop computer including the ability to browse the internet.
  
 ## 1.1 What is the state of the art of this new technology?
-Compared to similar DIY miniature computer boards such as Arduino and Makey Makey, the Raspberry Pi delivers the highest flexibility and computing power. The highest spec Raspberry Pi as of writing is the Raspberry Pi 4 Model B. With up to 8GB of RAM, Gigabit Ethernet, WiFi, Bluetooth, 64-bit quad core CPU @ 1.80GHz, 40 pin GPIO, and newest generation of VideoCore GPU. These specifications are more than enough to compete with many modern PCs. While the gaming capabilities are not yet comparable, video streaming is exceptional and the scale of feasible projects has increased dramatically.
+Compared to similar DIY miniature computer boards such as Arduino and Makey Makey, the Raspberry Pi delivers the highest flexibility and computing power. The highest spec Raspberry Pi as of writing is the Raspberry Pi 4 Model B. With up to 8GB of RAM, Gigabit Ethernet, WiFi, Bluetooth, 64-bit quad core CPU @ 1.80GHz, 40 pin GPIO, and newest generation of VideoCore GPU (Raspberry Pi 2022). These specifications are more than enough to compete with many modern PCs. While the gaming capabilities are not yet comparable, video streaming is exceptional and the scale of feasible projects has increased dramatically.
 ![Raspberry Pi 4 Model B](/assets/res/img/technologies/raspberrypi/pi4modelb.jpg)
  
 ## 1.2 What can be done now?
-The two micro HDMI ports support dual-monitor 4K video at 60fps. As a result, the Pi can be considered a competitive customisable home entertainment option made highly convenient due to the small form factor. Or with a bit of time and tinkering, one can rig up their own retro gaming console, an AI powered smart mirror, or automatic pet feeder. Being ultra modular and customisable, paired with the sheer power of the Pi, the possibilities are increasingly diverse. Even the much cheaper, lower end Pis are able to provide sufficient computing power for most projects. For example, the AUD$20 Raspberry Pi Zero 2 W can be used to make a WiFi security camera with live feed, or even a home server with network-wide ad blocking and a VPN.
+The two micro HDMI ports support dual-monitor 4K video at 60fps. As a result, the Pi can be considered a competitive customisable home entertainment option made highly convenient due to the small form factor. Or with a bit of time and tinkering, one can rig up their own retro gaming console, an AI powered smart mirror, or automatic pet feeder. Being ultra modular and customisable, paired with the sheer power of the Pi, the possibilities are increasingly diverse. Even the much cheaper, lower end Pis are able to provide sufficient computing power for most projects. For example, the AUD$20 Raspberry Pi Zero 2 W can be used to make a WiFi security camera with live feed, or even a home server with network-wide ad blocking and a VPN (Cawley 2021).
  
 ## 1.3 What is likely to be able to do be done soon (say in the next 3 years)?
 With the progress that has been made in recent years, the near future of Raspberry Pi can be expected to bring massive hardware advancements. This may include more powerful and modern CPU/GPUs, 16GB RAM, and/or built-in storage. Looking the other way, it is not unreasonable to suggest a more powerful and functional budget option will make its way onto the market, perhaps a Raspberry Pi Zero 3 W. With the recent transition to technological subjects, a cheap product may incentivise schools to buy these Pis in bulk, thus exposing more children to the fascinating field of IT.
@@ -45,3 +45,17 @@ The biggest difference between life with and without a Raspberry Pi is having an
  
 ## 3.3 How might this affect members of your family or your friends?
 Something I’ve always enjoyed doing is creating small projects for people in the hopes that it makes a task simpler for them. To date, it has mostly been Python scripts that automate something relevant to them, however the next level of this may be physical solutions via Raspberry Pi. My family and friends generally aren’t the type to create using the Pi, although I believe all of them could benefit in some way from a project built on one. It is in this way that Raspberry Pis have the ability to positively affect anyone, whether or not they are directly involved in the build process.
+
+
+## References
+Cawley, C 2021, *The 10 Best Raspberry Pi Zero 2 W Projects*, MUO, viewed 5 April 2022, <https://www.makeuseof.com/tag/10-best-raspberry-pi-zero-projects-far/#:~:text=The%2010%20Best%20Raspberry%20Pi%20Zero%202%20W,Raspberry%20Pi%20Zero%20Server.%20...%20More%20items...%20>.
+
+Khang 2020, *17 Best Raspberry Pi Projects for 2021 | Simply Smarter Circuitry Blog*, viewed 5 April 2022, <https://www.circuitspecialists.com/blog/best-raspberry-pi-projects/#:~:text=%2017%20Best%20Raspberry%20Pi%20Projects%20for%202021,has%20an%20easy-to-setup%20software%20counterpart.%20OctoPrint%2C...%20More%20>.
+
+*Raspberry Pi - Wikipedia* 2022, viewed 3 April 2022, <https://en.wikipedia.org/wiki/Raspberry_Pi>.
+
+Raspberry Pi 2022, *Raspberry Pi 4 Model B specifications – Raspberry Pi, Raspberry Pi*, viewed 3 April 2022, <https://www.raspberrypi.com/products/raspberry-pi-4-model-b/specifications/>.
+
+Todd 2021, *Arduino vs Raspberry Pi | Simply Smarter Circuitry Blog*, viewed 5 April 2022, <https://www.circuitspecialists.com/blog/arduino-vs-raspberry-pi/>.
+
+*What is a Raspberry Pi and How Does it Work? | Pi Day* 2022, viewed 3 April 2022, <https://www.piday.org/whats-a-raspberry-pi-and-how-does-it-work/>.
