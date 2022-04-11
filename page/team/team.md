@@ -38,7 +38,7 @@ Clayton Phillips (s3952384) was born in Dubbo, NSW and went through high school 
 
 ![Nuulaiti Junior Lale](/assets/res/img/nuulaiti-junior-lale.png)
 
-Nuulaiti (S3940026) recently graduated from High School in 2022, working throughout 2021. His parents moved to Australia back in 1998 from Samoa after his eldest brother's 2nd birthday. Nuulaiti used to do sports like rugby and Muay Thai as a form of staying in shape. He’s currently undertaking this study online for its convenience in time flexibility. Nuulaiti’s interest in IT first sparked after he bought a pc, messing around with different parts, trying to troubleshoot issues that appeared here and there. In general, he was always interested in how things worked. Nuulaiti has little to no IT experience, other than the foundation he is currently building while undertaking this course. This includes HTML and CSS, all of which are being used within VScode. 
+Nuulaiti (S3940026) recently graduated from High School in 2022, working throughout 2021. His parents moved to Australia back in 1998 from Samoa after his eldest brother's 2nd birthday. Nuulaiti used to do sports like rugby and Muay Thai as a for4m of staying in shape. He’s currently undertaking this study online for its convenience in time flexibility. Nuulaiti’s interest in IT first sparked after he bought a pc, messing around with different parts, trying to troubleshoot issues that appeared here and there. In general, he was always interested in how things worked. Nuulaiti has little to no IT experience, other than the foundation he is currently building while undertaking this course. This includes HTML and CSS, all of which are being used within VScode. 
 
 ### Taleb Dib
 
