@@ -48,9 +48,9 @@ Something I’ve always enjoyed doing is creating small projects for people in t
 
 
 ## References
-Cawley, C 2021, *The 10 Best Raspberry Pi Zero 2 W Projects*, MUO, viewed 5 April 2022, [<https://www.makeuseof.com/tag/10-best-raspberry-pi-zero-projects-far/#:~:text=The%2010%20Best%20Raspberry%20Pi%20Zero%202%20W,Raspberry%20Pi%20Zero%20Server.%20...%20More%20items...%20>](https://www.makeuseof.com/tag/10-best-raspberry-pi-zero-projects-far/#:~:text=The%2010%20Best%20Raspberry%20Pi%20Zero%202%20W,Raspberry%20Pi%20Zero%20Server.%20...%20More%20items...%20).
+Cawley, C 2021, *The 10 Best Raspberry Pi Zero 2 W Projects*, MUO, viewed 5 April 2022, [<https://www.makeuseof.com/tag/10-best-raspberry-pi-zero-projects-far>](https://www.makeuseof.com/tag/10-best-raspberry-pi-zero-projects-far/#:~:text=The%2010%20Best%20Raspberry%20Pi%20Zero%202%20W,Raspberry%20Pi%20Zero%20Server.%20...%20More%20items...%20).
 
-Khang 2020, *17 Best Raspberry Pi Projects for 2021 | Simply Smarter Circuitry Blog*, viewed 5 April 2022, [<https://www.circuitspecialists.com/blog/best-raspberry-pi-projects/#:~:text=%2017%20Best%20Raspberry%20Pi%20Projects%20for%202021,has%20an%20easy-to-setup%20software%20counterpart.%20OctoPrint%2C...%20More%20>](https://www.circuitspecialists.com/blog/best-raspberry-pi-projects/#:~:text=%2017%20Best%20Raspberry%20Pi%20Projects%20for%202021,has%20an%20easy-to-setup%20software%20counterpart.%20OctoPrint%2C...%20More%20).
+Khang 2020, *17 Best Raspberry Pi Projects for 2021 | Simply Smarter Circuitry Blog*, viewed 5 April 2022, [<https://www.circuitspecialists.com/blog/best-raspberry-pi-projects>](https://www.circuitspecialists.com/blog/best-raspberry-pi-projects/#:~:text=%2017%20Best%20Raspberry%20Pi%20Projects%20for%202021,has%20an%20easy-to-setup%20software%20counterpart.%20OctoPrint%2C...%20More%20).
 
 *Raspberry Pi - Wikipedia* 2022, viewed 3 April 2022, [<https://en.wikipedia.org/wiki/Raspberry_Pi>](https://en.wikipedia.org/wiki/Raspberry_Pi).
 
