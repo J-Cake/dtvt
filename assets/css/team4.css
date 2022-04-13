@@ -1,0 +1,113 @@
+:root,
+body {
+    --max-width: 100vw;
+}
+
+#content {
+    --slide-width: 100%;
+    display: grid;
+
+    grid-template-columns: minmax(max-content, 256px) 1fr;
+    grid-template-rows: min-content repeat(6, auto);
+
+    grid-template-areas:
+        "top-left header"
+        "sh       content"
+        "pb       content"
+        "js       content"
+        "cp       content"
+        "njl      content"
+        "td       content";
+}
+
+.person {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+}
+
+.person,
+#top-left {
+    border-right: 3px solid var(--foreground);
+}
+
+#top-left {
+    display: block;
+    font-weight: 900;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+#sh {
+    grid-area: sh;
+}
+
+#pb {
+    grid-area: pb;
+}
+
+#js {
+    grid-area: js;
+}
+
+#cp {
+    grid-area: cp;
+}
+
+#njl {
+    grid-area: njl;
+}
+
+#td {
+    grid-area: td;
+}
+
+.tab-header {
+    grid-area: header;
+}
+
+#profile,
+#test-results,
+#it-jobs {
+    display: grid;
+    grid-template-rows: subgrid;
+    grid-template-columns: subgrid;
+
+    max-width: var(--slide-width);
+    min-width: var(--slide-width);
+
+    box-sizing: border-box;
+}
+
+#columns {
+    display: grid;
+    grid-template-rows: subgrid;
+    grid-template-columns: repeat(3, var(--slide-width));
+
+    grid-area: content;
+
+    grid-template-areas: 
+        "profile test-results it-jobs"
+        "profile test-results it-jobs"
+        "profile test-results it-jobs"
+        "profile test-results it-jobs"
+        "profile test-results it-jobs"
+        "profile test-results it-jobs";
+}
+
+#profile {
+    /* grid-column: 1; */
+    grid-area: profile;
+}
+
+#test-results {
+    /* grid-column: 2; */
+    grid-area: test-results;
+}
+
+#it-jobs {
+    /* grid-column: 3; */
+    grid-area: it-jobs;
+}

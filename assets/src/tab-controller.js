@@ -8,18 +8,19 @@ window.tabController = function (container) {
         const tabButton = document.createElement('button');
         tabButton.classList.add('tab-header-button');
         tabButton.innerText = tab.getAttribute('data-heading');
-        
+
         tabButton.addEventListener('click', function () {
-                tabBody.scrollLeft = tab.offsetLeft - tab.offsetLeft % tab.offsetWidth;
-                tabHeader.querySelector('.tab-header-button.active')?.classList.remove('active');
-                tabButton.classList.add('active');
-                window.location.hash = tab.id;
-            });
+            const dest = tabBody.scrollLeft = tab.offsetLeft - tab.offsetLeft % tab.offsetWidth;
+            setTimeout(() => tabBody.scrollLeft !== dest ? tabBody.scrollLeft = dest : void 0, 200); // correct for scroll lag
+            tabHeader.querySelector('.tab-header-button.active')?.classList.remove('active');
+            tabButton.classList.add('active');
+            window.location.hash = tab.id;
+        });
 
         tabHeader.appendChild(tabButton);
     }
 
-    
+
 
     container.insertBefore(tabHeader, tabBody);
 

@@ -7,11 +7,53 @@ Layout.css defines general behaviours affecting layouts of various elements whic
     max-width: var(--max-width);
 }
 
+.no-max-width {
+    max-width: 100%;
+}
+
+.fit-content {
+    max-width: fit-content;
+}
+
+.square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 128px;
+    max-height: 128px;
+    background: #eee;
+}
+
+.square > * {
+    max-width: 128px;
+    max-height: 128px;
+}
+
 .horizontal {
     display: flex;
     align-items: flex-start;
     flex-direction: row;
     width: 100%;
+}
+
+.match-height {
+    flex-grow: 1;
+}
+
+.sticky-container {
+    /* display: flex;
+    flex-direction: column; */
+    position: relative;
+    /* width: 100%; */
+    max-height: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+.sticky-top {
+    display: block;
+    position: sticky;
+    top: 0;
 }
 
 .horizontal.between {
@@ -49,4 +91,10 @@ Layout.css defines general behaviours affecting layouts of various elements whic
     min-width: -moz-fit-content;
     min-width: -webkit-fill-available;
     min-width: fit-content;
+}
+
+.table-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }

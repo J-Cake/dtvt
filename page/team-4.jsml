@@ -1,0 +1,49 @@
+link rel = 'stylesheet' href = '/assets/css/team4.css';
+
+section id = 'content' class = 'max-width tab-list' {
+
+    script src = '/assets/src/tab-controller.js' defer = 'true' []
+    script defer = 'true' [ window.addEventListener('load', () => window.tabController(document.querySelector('.tab-list'))); ]
+
+    div class = 'person' id = 'sh' [Stephanie Hobourn]
+    div class = 'person' id = 'pb' [Phi Bui]
+    div class = 'person' id = 'js' [Jacob Schneider]
+    div class = 'person' id = 'cp' [Clayton Phillips]
+    div class = 'person' id = 'njl' [Nuulaiti Junior Lale]
+    div class = 'person' id = 'td' [Taleb Dib]
+
+    span id = 'top-left' [Do-the-thing]
+
+    section id = 'columns' class = 'tab-body' {
+        div id = 'profile' class = 'tab' data-heading = 'Profile' {
+            div class = 'sh' [Stephanie Hobourn]
+            div class = 'ph' [Phi Bui]
+            div class = 'js' [Jacob Schneider]
+            div class = 'cp' [Clayton Phillips]
+            div class = 'njl' [Nuulaiti Junior Lale]
+            div class = 'td' [Taleb Dib]
+            []
+        }
+
+        div id = 'test-results' class = 'tab' data-heading = 'Test Results' {
+            div class = 'sh' [Stephanie Hobourn]
+            div class = 'ph' [Phi Bui]
+            div class = 'js' [Jacob Schneider]
+            div class = 'cp' [Clayton Phillips]
+            div class = 'njl' [Nuulaiti Junior Lale]
+            div class = 'td' [Taleb Dib]
+            []
+        }
+
+        div id = 'it-jobs' class = 'tab' data-heading = 'IT Jobs' {
+            div class = 'sh' [Stephanie Hobourn]
+            div class = 'ph' [Phi Bui]
+            div class = 'js' [Jacob Schneider]
+            div class = 'cp' [Clayton Phillips]
+            div class = 'njl' [Nuulaiti Junior Lale]
+            div class = 'td' [Taleb Dib]
+            []
+        }
+
+    }
+}
