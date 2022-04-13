@@ -95,6 +95,8 @@ body {
         "profile test-results it-jobs"
         "profile test-results it-jobs"
         "profile test-results it-jobs";
+
+    margin: 24px;
 }
 
 #profile {
@@ -110,4 +112,9 @@ body {
 #it-jobs {
     /* grid-column: 3; */
     grid-area: it-jobs;
+}
+
+.person img {
+    max-width: 120px;
+    min-width: 120px;
 }

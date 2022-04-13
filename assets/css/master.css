@@ -29,10 +29,20 @@ body {
     background-repeat: no-repeat; */
 }
 
+@media screen and (prefers-color-scheme: dark) {
+    :root,
+    body {
+        --foreground: rgb(207, 207, 207);
+        --background: rgb(37, 38, 41);
+        --accent: rgb(67, 188, 144);
+    }
+}
+
 *:not(pre, code) {
     font-family: Raleway, RalewayLocal, Arial, sans-serif;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    color: var(--foreground);
 }
 
 /* h1:before, h1:after, h2:before, h2:after, h3:before, h3:after, h4:before, h4:after, h5:before, h5:after, h6:before, h6:after { /* yw *\/
