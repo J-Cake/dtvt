@@ -22,7 +22,7 @@ When not PC gaming or ‘googling’, he enjoys spending time fishing and campin
 
 ### Jacob Schneider
 
-![Jacob Schneider](../../assets/res/img/jacob-schneider.jpg)
+![Jacob Schneider](/assets/res/img/jacob-schneider.jpg)
 
 Jake (s3954363) is a proud self-pronounced nerd. He spends most of his time toying and tinkering with maths, physics and computers, and especially keen interests in the latter, specifically operating systems, compilers and neural computation. Having graduated high school the year before, he is eager to get his life started with a bachelor of Computer Science at the University of Tübingen, in south-western Germany - his hometown.  
 

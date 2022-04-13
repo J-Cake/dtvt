@@ -1,0 +1,7 @@
+td {
+    h1 [Stephanie Hobourn]
+}
+
+td {
+    $include file = 'page/team/team.md' content_type = 'text/html+md';
+}

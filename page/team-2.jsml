@@ -1,0 +1,69 @@
+section id = 'left' {
+    div class = 'person sticky-top' {
+        a href = '#stephanie-hobourn' {
+            (/*h2 [Stephanie Hobourn]*/)
+            span class = 'square' {
+                img src = '/assets/res/img/stephanie-hobourn.jpg' alt = 'Stephanie Hobourn' class = 'sticky-top';
+            }
+            []
+        }
+        a href = '#phi-bui' {
+            (/*h2 [Phi Bui]*/)
+            span class = 'square' {
+                img src = '/assets/res/img/phi-bui.jpeg' alt = 'Phi Bui' class = 'sticky-top';
+            }
+            []
+        }
+        a href = '#jacob-schneider' {
+            (/*h2 [Jacob Schneider]*/)
+            span class = 'square' {
+                img src = '/assets/res/img/jacob-schneider.jpg' alt = 'Stephanie Hobourn' class = 'sticky-top';
+            }
+            []
+        }
+        a href = '#clayton-phillips' {
+            h2 (/*[Clayton Phillips]*/)
+            span class = 'square' {
+                img src = '/assets/res/img/clayton-phillips.jpg' alt = 'Stephanie Hobourn' class = 'sticky-top';
+            }
+            []
+        }
+        a href = '#nuulaiti-junior-lale' {
+            h2 (/*[Nuulaiti Junior Lale]*/)
+            span class = 'square' {
+                img src = '/assets/res/img/nuulaiti-junior-lale.png' alt = 'Stephanie Hobourn' class = 'sticky-top';
+            }
+            []
+        }
+        a href = '#taleb-dib' {
+            h2 (/*[Taleb Dib]*/)
+            span class = 'square' {
+                img src = '/assets/res/img/taleb-dib.jpg' alt = 'Stephanie Hobourn' class = 'sticky-top';
+            }
+            []
+        }
+    }
+}
+
+section class = 'no-max-width personalities' id = 'content' {
+
+    article class = 'col-2' id = 'stephanie-hobourn' {
+        $include file = 'page/team/team.md' content_type = 'text/html+md';
+    }
+    article class = 'col-2' id = 'phi-bui' {
+        $include file = 'page/team/team.md' content_type = 'text/html+md';
+    }
+    article class = 'col-2' id = 'jacob-schneider' {
+        $include file = 'page/team/team.md' content_type = 'text/html+md';
+    }
+    article class = 'col-2' id = 'clayton-phillips' {
+        $include file = 'page/team/team.md' content_type = 'text/html+md';
+    }
+    article class = 'col-2' id = 'nuulaiti-junior-lale' {
+        $include file = 'page/team/team.md' content_type = 'text/html+md';
+    }
+    article class = 'col-2' id = 'taleb-dib' {
+        $include file = 'page/team/team.md' content_type = 'text/html+md';
+    }
+
+}
