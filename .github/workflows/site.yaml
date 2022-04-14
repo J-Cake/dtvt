@@ -25,6 +25,7 @@ jobs:
         run: |
           mkdir -p build/static
           mkdir -p build/site/technologies
+          mkdir -p build/site/project
       
       - name: Get Template
         uses: dsaltares/fetch-gh-release-asset@master

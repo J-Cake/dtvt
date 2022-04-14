@@ -1,10 +1,7 @@
 build/site/index.html,                                  template.jsml, page_title: Home,                    content: page/index.jsml,           content_type: text/jsml
-build/site/team_tabbed.html,                            template.jsml, page_title: Team,                    content: page/team.jsml,            content_type: text/jsml
-build/site/team_concept1.html,                          template.jsml, page_title: Team,                    content: page/team-2.jsml,          content_type: text/jsml
-build/site/team_concept2.html,                          template.jsml, page_title: Team,                    content: page/team-3.jsml,          content_type: text/jsml
-build/site/team_concept3.html,                          template.jsml, page_title: Team,                    content: page/team-4.jsml,          content_type: text/jsml
-build/site/technologies/cybersecurity.html,             template.jsml, page_title: Cybersecurity,           content: page/technologies.jsml,    content_type:text/html+md, tech: page/technologies/cybersecurity.md,  author: Taleb Dib
-build/site/technologies/chatbots.html,                  template.jsml, page_title: Chatbots,                content: page/technologies.jsml,    content_type:text/html+md, tech: page/technologies/chatbot.md,        author: Phi Bui
-build/site/technologies/raspberry-pi-and-arduino.html,  template.jsml, page_title: Raspberry Pi & Arduino,  content: page/technologies.jsml,    content_type:text/html+md, tech: page/technologies/microcomputers.md, author: Clayton Phillips
-build/site/technologies/robots.html,                    template.jsml, page_title: Robots,          		content: page/technologies.jsml,    content_type:text/html+md, tech: page/technologies/robots.md,         author: Nuulaiti Junior Lale
-build/site/project.html,                                template.jsml, page_title: Project,       		    content: page/project.jsml,         content_type: text/jsml
+build/site/team.html,                                   template.jsml, page_title: Team,                    content: page/team.jsml,          content_type: text/jsml
+build/site/technologies/cybersecurity.html,             template.jsml, page_title: Cybersecurity,           content: page/technologies.jsml,    content_type: text/html+md, tech: page/technologies/cybersecurity.md,  author: Taleb Dib
+build/site/technologies/chatbots.html,                  template.jsml, page_title: Chatbots,                content: page/technologies.jsml,    content_type: text/html+md, tech: page/technologies/chatbot.md,        author: Phi Bui
+build/site/technologies/raspberry-pi-and-arduino.html,  template.jsml, page_title: Raspberry Pi & Arduino,  content: page/technologies.jsml,    content_type: text/html+md, tech: page/technologies/microcomputers.md, author: Clayton Phillips
+build/site/technologies/robots.html,                    template.jsml, page_title: Robots,          	    content: page/technologies.jsml,    content_type: text/html+md, tech: page/technologies/robots.md,         author: Nuulaiti Junior Lale
+build/site/project/overview.html,                       template.jsml, page_title: Overview,                content: include/article.jsml,      content_type: text/html+md, page: page/project/overview.md

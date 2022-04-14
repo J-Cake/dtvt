@@ -16,10 +16,11 @@ body {
     box-sizing: border-box;
 
     --foreground: #333;
-    --background: #fff;
+    --background: rgb(206, 208, 209);
     --accent: rgb(67, 188, 144);
 
-    background: var(--background);
+    /* background: var(--background); */
+    background: linear-gradient(45deg , rgb(176, 178, 179), #fff);
 
     /* --foreground: rgb(70, 62, 68);
     --background: rgb(248, 217, 245);
@@ -35,6 +36,8 @@ body {
         --foreground: rgb(207, 207, 207);
         --background: rgb(37, 38, 41);
         --accent: rgb(67, 188, 144);
+
+        background: linear-gradient(45deg , rgb(37, 38, 41), rgb(56, 59, 68));
     }
 }
 

@@ -17,7 +17,18 @@ body {
         "js       content"
         "cp       content"
         "njl      content"
-        "td       content";
+        "td       content"
+}
+
+#top-left:after {
+    /* content: 'Note: This page uses features which are not supported by your browser. Firefox is the best choice.'; */
+    content: 'Doin\' the thing.';
+    font-size: 8pt;
+    font-weight: 400;
+    color: #888;
+    display: block;
+    max-width: 128px;
+    margin: 0 auto;
 }
 
 .person {
@@ -38,31 +49,45 @@ body {
     font-weight: 900;
     text-align: center;
     font-size: 1.3em;
+    grid-area: top-left;
 }
 
-#sh {
+#sh,
+.sh {
     grid-area: sh;
 }
 
-#pb {
+#pb,
+.pb {
     grid-area: pb;
 }
 
-#js {
+#js,
+.js {
     grid-area: js;
 }
 
-#cp {
+#cp,
+.cp {
     grid-area: cp;
 }
 
-#njl {
+#njl,
+.njl {
     grid-area: njl;
 }
 
-#td {
+#td,
+.td {
     grid-area: td;
 }
+
+/* #sh  { grid-area: sh; }
+#pb  { grid-area: pb; }
+#js  { grid-area: js; }
+#cp  { grid-area: cp; }
+#njl { grid-area: njl; }
+#td  { grid-area: td; } */
 
 .tab-header {
     grid-area: header;
@@ -72,13 +97,26 @@ body {
 #test-results,
 #it-jobs {
     display: grid;
-    grid-template-rows: subgrid;
-    grid-template-columns: subgrid;
+    grid-template-rows: repeat(7, auto);
+
+    grid-template-areas: "sh""pb""js""cp""njl""td";
+
+    /* grid-template-columns: subgrid; */
 
     max-width: var(--slide-width);
     min-width: var(--slide-width);
 
     box-sizing: border-box;
+}
+
+
+#profile .info,
+#test-results .info,
+#it-jobs .info {
+    grid-row: 1;
+    display: grid;
+    grid-area: info;
+    grid-template-columns: subgrid;
 }
 
 #columns {
@@ -88,7 +126,8 @@ body {
 
     grid-area: content;
 
-    grid-template-areas: 
+    grid-template-areas:
+        "profile test-results it-jobs"
         "profile test-results it-jobs"
         "profile test-results it-jobs"
         "profile test-results it-jobs"
@@ -100,21 +139,72 @@ body {
 }
 
 #profile {
-    /* grid-column: 1; */
     grid-area: profile;
 }
 
 #test-results {
-    /* grid-column: 2; */
     grid-area: test-results;
 }
 
 #it-jobs {
-    /* grid-column: 3; */
     grid-area: it-jobs;
 }
 
 .person img {
     max-width: 120px;
     min-width: 120px;
+}
+
+#test-results .info,
+#it-jobs .info {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+@supports (grid-template-columns: subgrid) {
+    #content {
+        grid-template-columns: minmax(max-content, 256px) 1fr;
+        grid-template-rows: min-content min-content repeat(6, auto);
+
+        grid-template-areas:
+            "top-left header"
+            "top-left content"
+            "sh       content"
+            "pb       content"
+            "js       content"
+            "cp       content"
+            "njl      content"
+            "td       content";
+    }
+
+    /* #top-left:after {
+        content: '';
+    } */
+
+    #profile,
+    #test-results,
+    #it-jobs {
+        grid-template-columns: subgrid;
+        grid-template-rows: subgrid;
+
+        grid-template-areas: unset;
+    }
+
+    #test-results,
+    #it-jobs {
+        display: grid;
+        grid-template-rows: subgrid;
+        grid-template-columns: auto auto auto;
+    }
+}
+
+#test-results,
+#it-jobs {
+    grid-template-areas:
+        "info info info"
+        "sh sh sh"
+        "pb pb pb"
+        "js js js"
+        "cp cp cp"
+        "njl njl njl"
+        "td td td";
 }

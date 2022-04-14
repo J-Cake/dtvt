@@ -1,0 +1,3 @@
+article id = 'content' {
+    $include file = '${page}' content_type = 'text/html+md';
+}

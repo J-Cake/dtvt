@@ -23,9 +23,7 @@ html lang = 'en' {
 
         $include file = 'include/footer.jsml';
 
-        script src = '/assets/src/click.js' {
-            
-        }
+        script src = '/assets/src/click.js' []
 
     }
 }

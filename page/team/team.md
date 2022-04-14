@@ -1,4 +1,5 @@
 # The Do-The-Thing Team:
+Doin' the thing since 2022.
 
 We're a dedicatd team of 6, working hard to complete things in a timely manner.
 
