@@ -2,3 +2,4 @@ build
 .vscode
 .pnpm*
 template.js
+nopages

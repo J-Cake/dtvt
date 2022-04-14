@@ -3,5 +3,5 @@ div id = 'footer' class = 'horizontal darken' {
         a href = 'https://github.com/J-Cake/jstempl' [Made with JSTempl]
     }
     a href = 'https://github.com/J-Cake/do-the-thing-website' [GitHub Repo]
-    p [text/html+md In accordance with [Assessment 2](/assets/res/outline.pdf)]
+    [text/html+md In accordance with [Assessment 2](/assets/res/outline.pdf)]
 }

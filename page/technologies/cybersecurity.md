@@ -69,9 +69,7 @@ Coming from an ethnic family, my parents are not great with technology therefore
  
 My friends personally are quite computer savvy, it is a good benefit to acknowledge their occurrences to expand my awareness and knowledge of its properties and components. 
  
-
-
-Referencing
+## Referencing
  
 Chadd, K (2020), 'The History of Cybersecurity', Avast, viewed 24 November 2020, \<[https://blog.avast.com/history-of-cybersecurity-avast](https://blog.avast.com/history-of-cybersecurity-avast)\>
  

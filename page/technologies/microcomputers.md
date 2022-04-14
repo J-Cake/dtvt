@@ -46,8 +46,8 @@ The biggest difference between life with and without a Raspberry Pi is having an
 ## 3.3 How might this affect members of your family or your friends?
 Something I’ve always enjoyed doing is creating small projects for people in the hopes that it makes a task simpler for them. To date, it has mostly been Python scripts that automate something relevant to them, however the next level of this may be physical solutions via Raspberry Pi. My family and friends generally aren’t the type to create using the Pi, although I believe all of them could benefit in some way from a project built on one. It is in this way that Raspberry Pis have the ability to positively affect anyone, whether or not they are directly involved in the build process.
 
-
 ## References
+
 Cawley, C 2021, *The 10 Best Raspberry Pi Zero 2 W Projects*, MUO, viewed 5 April 2022, \<[https://www.makeuseof.com/tag/10-best-raspberry-pi-zero-projects-far](https://www.makeuseof.com/tag/10-best-raspberry-pi-zero-projects-far/#:~:text=The%2010%20Best%20Raspberry%20Pi%20Zero%202%20W,Raspberry%20Pi%20Zero%20Server.%20...%20More%20items...%20)\>.
 
 Khang 2020, *17 Best Raspberry Pi Projects for 2021 | Simply Smarter Circuitry Blog*, viewed 5 April 2022, \<[https://www.circuitspecialists.com/blog/best-raspberry-pi-projects](https://www.circuitspecialists.com/blog/best-raspberry-pi-projects/#:~:text=%2017%20Best%20Raspberry%20Pi%20Projects%20for%202021,has%20an%20easy-to-setup%20software%20counterpart.%20OctoPrint%2C...%20More%20)\>.

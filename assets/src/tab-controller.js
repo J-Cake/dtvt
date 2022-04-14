@@ -1,4 +1,4 @@
-window.tabController = function (container) {
+window.tabController = function (container, noHash = false) {
 
     const tabHeader = document.createElement('nav');
     tabHeader.classList.add('tab-header');
@@ -14,13 +14,13 @@ window.tabController = function (container) {
             setTimeout(() => tabBody.scrollLeft !== dest ? tabBody.scrollLeft = dest : void 0, 200); // correct for scroll lag
             tabHeader.querySelector('.tab-header-button.active')?.classList.remove('active');
             tabButton.classList.add('active');
-            window.location.hash = tab.id;
+
+            if (!noHash)
+                window.location.hash = tab.id;
         });
 
         tabHeader.appendChild(tabButton);
     }
-
-
 
     container.insertBefore(tabHeader, tabBody);
 

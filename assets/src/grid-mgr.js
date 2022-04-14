@@ -6,7 +6,7 @@ const resize = function () {
     const njl = [document.querySelector('#njl'), ...document.querySelectorAll('.tab .njl')];
     const td = [document.querySelector('#td'), ...document.querySelectorAll('.tab .td')];
 
-    for (const i of [sh, pb, js, cp, njl, td]) {
+    for (const i of [/*info, */sh, pb, js, cp, njl, td]) {
         const maxHeight = i.reduce((a, i) => Math.max(a, i.clientHeight), 0);
 
         for (const j of i)
