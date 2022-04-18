@@ -195,6 +195,26 @@ table img {
     margin: 10px;
 }
 
+article table img {
+    display: inline;
+    float: unset;
+    text-align: center;
+    max-width: 400px;
+    max-height: 400px;
+}
+
+article table tr:not(:last-child) td {
+    border-bottom: 1px dashed var(--foreground);
+    text-align: center;
+    vertical-align: middle;
+}
+
+article table {
+    border-collapse: collapse;
+}
+article table td {
+    padding: 8px;
+}
 /* Nav */
 
 /* The 3 represents the number of children in $`header nav.horizontal`*/
@@ -286,30 +306,4 @@ header nav.horizontal>* {
 
 .tab-list .tab-header .tab-header-button.active {
     border-bottom: 3px solid var(--accent);
-}
-
-/* team-2.jsml */
-
-img {
-    max-width: 240px;
-}
-
-table td {
-    vertical-align: top;
-    padding: 12px 24px;
-}
-
-table tr td:first-child {
-    text-align: center;
-    vertical-align: top;
-    display: table-cell;
-    border-right: 3px solid var(--foreground);
-}
-
-table tr:not(:last-child) td:not(:first-child) {
-    border-bottom: 1px dashed var(--foreground);
-}
-
-table {
-    border-collapse: collapse;
 }
