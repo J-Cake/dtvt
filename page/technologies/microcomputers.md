@@ -16,7 +16,8 @@ As can be seen here, the ports allow the computer to fulfil the role of a home P
 ## 1.1 What is the state of the art of this new technology?
 Compared to similar DIY miniature computer boards such as Arduino and Makey Makey, the Raspberry Pi delivers the highest flexibility and computing power. The highest spec Raspberry Pi as of writing is the Raspberry Pi 4 Model B. With up to 8GB of RAM, Gigabit Ethernet, WiFi, Bluetooth, 64-bit quad core CPU @ 1.80GHz, 40 pin GPIO, and newest generation of VideoCore GPU (Raspberry Pi 2022). These specifications are more than enough to compete with many modern PCs. While the gaming capabilities are not yet comparable, video streaming is exceptional and the scale of feasible projects has increased dramatically.
 ![Raspberry Pi 4 Model B](/assets/res/img/technologies/raspberrypi/pi4modelb.jpg)
- 
+> **Raspberry Pi 4 Model B** *(Image credit: cnx-software.com)*
+
 ## 1.2 What can be done now?
 The two micro HDMI ports support dual-monitor 4K video at 60fps. As a result, the Pi can be considered a competitive customisable home entertainment option made highly convenient due to the small form factor. Or with a bit of time and tinkering, one can rig up their own retro gaming console, an AI powered smart mirror, or automatic pet feeder. Being ultra modular and customisable, paired with the sheer power of the Pi, the possibilities are increasingly diverse. Even the much cheaper, lower end Pis are able to provide sufficient computing power for most projects. For example, the AUD$20 Raspberry Pi Zero 2 W can be used to make a WiFi security camera with live feed, or even a home server with network-wide ad blocking and a VPN (Cawley 2021).
  
