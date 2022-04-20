@@ -71,12 +71,19 @@ The most life-changing robot out of the four would have to be the humanoid robot
 
 ## Reference
 
-#### Labour Force, Australia, February 2022, viewed on April 4, 2022
+Australian Bureau of Statistics 2021, *Labour Force, Australia, www.abs.gov.au*, Australian Bureau of Statistics, viewed 4 April 2022,
+\<[https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia/latest-release](https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia/latest-release)\>
 
-[www.abs.gov.au](https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia/latest-release)
+*Boston Dynamics* 2020, Wikipedia, viewed 1 April 2022,\<[https://en.wikipedia.org/wiki/Boston_Dynamics](https://en.wikipedia.org/wiki/Boston_Dynamics)\>
 
-#### Atlas™ | Boston Dynamics, 
+CNET Highlights 2021, *AI for General Purpose Robotics, Elon Musk reveals TESLA Bot*, viewed 1 April 2022, \<[https://www.youtube.com/watch?v=HUP6Z5voiS8&ab_channel=CNETHighlights](https://www.youtube.com/watch?v=HUP6Z5voiS8&ab_channel=CNETHighlights)\>
 
-[bostondynamics.com](https://www.bostondynamics.com/atlas)
+Contributor, T 2021, *What are Robots and How Do They Work?*, SearchEnterpriseAI, viewed 30 March 2022, \<[https://www.techtarget.com/searchenterpriseai/definition/robot#:~:text=A%20robot%20is%20a%20type](https://www.techtarget.com/searchenterpriseai/definition/robot#:~:text=A%20robot%20is%20a%20type)\>
 
-#### 
+*History of Robots* 2016, Adelaide Robotics Academy, viewed 30 March 2022, \<[https://www.roboticsacademy.com.au/history-of-robots/](https://www.roboticsacademy.com.au/history-of-robots/)\>
+
+*Robotics in Healthcare: The Future of Medical Care* 2022, Intel, viewed 29 March 2022, \<[https://www.intel.com.au/content/www/au/en/healthcare-it/robotics-in-healthcare.html#:~:text=Robots%20in%20the%20medical%20field%20span%20several%20areas.](https://www.intel.com.au/content/www/au/en/healthcare-it/robotics-in-healthcare.html#:~:text=Robots%20in%20the%20medical%20field%20span%20several%20areas.)\>
+
+*Shakey the Robot* 2022, SRI, viewed 2 April 2022, \<[https://www.sri.com/hoi/shakey-the-robot/](https://www.sri.com/hoi/shakey-the-robot/)>
+
+Whiton, J, Maxim, R & Muro, M 2020, *The robots are ready as the COVID-19 recession spreads*, Brookings, viewed 4 April 2022, \<[https://www.brookings.edu/blog/the-avenue/2020/03/24/the-robots-are-ready-as-the-covid-19-recession-spreads/#:~:text=Robots](https://www.brookings.edu/blog/the-avenue/2020/03/24/the-robots-are-ready-as-the-covid-19-recession-spreads/#:~:text=Robots)> 
