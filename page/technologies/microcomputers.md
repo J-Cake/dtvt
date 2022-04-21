@@ -53,7 +53,7 @@ Cawley, C 2021, *The 10 Best Raspberry Pi Zero 2 W Projects*, MUO, viewed 5 Apri
 
 Khang 2020, *17 Best Raspberry Pi Projects for 2021 | Simply Smarter Circuitry Blog*, viewed 5 April 2022, \<[https://www.circuitspecialists.com/blog/best-raspberry-pi-projects](https://www.circuitspecialists.com/blog/best-raspberry-pi-projects/#:~:text=%2017%20Best%20Raspberry%20Pi%20Projects%20for%202021,has%20an%20easy-to-setup%20software%20counterpart.%20OctoPrint%2C...%20More%20)\>.
 
-*Raspberry Pi - Wikipedia* 2022, viewed 3 April 2022, [\<https://en.wikipedia.org/wiki/Raspberry_Pi\>](https://en.wikipedia.org/wiki/Raspberry_Pi).
+*Raspberry Pi - Wikipedia* 2022, viewed 3 April 2022, \<[https://en.wikipedia.org/wiki/Raspberry_Pi](https://en.wikipedia.org/wiki/Raspberry_Pi)\>.
 
 Raspberry Pi 2022, *Raspberry Pi 4 Model B specifications – Raspberry Pi, Raspberry Pi*, viewed 3 April 2022, \<[https://www.raspberrypi.com/products/raspberry-pi-4-model-b/specifications/](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/specifications/)\>.
 
