@@ -44,7 +44,7 @@ body {
 
 *:not(pre, code) {
     font-family: Raleway, RalewayLocal, Arial, sans-serif;
-    box-sizing: border-box;
+    box-sizing: border-box !important;
     scroll-behavior: smooth;
     color: var(--foreground);
 }

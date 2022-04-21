@@ -8,16 +8,18 @@ body {
     display: grid;
 
     grid-template-columns: minmax(max-content, 256px) 1fr;
-    grid-template-rows: min-content repeat(6, auto);
+    grid-template-rows: min-content repeat(7, auto);
 
     grid-template-areas:
         "top-left header"
+        "buffer   content"
         "sh       content"
         "pb       content"
         "js       content"
         "cp       content"
         "njl      content"
         "td       content"
+        "extra    content";
 }
 
 #top-left:after {
@@ -50,6 +52,10 @@ body {
     text-align: center;
     font-size: 1.3em;
     grid-area: top-left;
+}
+
+#buffer {
+    grid-area: buffer;
 }
 
 #sh,
@@ -95,9 +101,10 @@ body {
 #test-results,
 #it-jobs {
     display: grid;
-    grid-template-rows: repeat(7, auto);
+    grid-template-rows: repeat(8, auto);
 
     grid-template-areas:
+        "info"
         "sh"
         "pb"
         "js"
@@ -121,7 +128,6 @@ body {
     grid-row: 1;
     display: grid;
     grid-area: info;
-    grid-template-columns: subgrid;
     text-align: center;
     font-weight: 700;
     font-size: 1.15em;
@@ -129,7 +135,6 @@ body {
 
 #columns {
     display: grid;
-    grid-template-rows: subgrid;
     grid-template-columns: repeat(3, var(--slide-width));
 
     grid-area: content;
@@ -167,58 +172,22 @@ body {
 #test-results .info {
     grid-template-columns: repeat(4, 1fr);
 }
+
 #it-jobs .info {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(8, 1fr);
+    /* I'd like this to be `auto` so that the content fits more cleaning in the table, but due to technical reasons, that's not feasible */
 }
 
-#test-results > * {
+#test-results>* {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    text-align: justify;
+    text-align: left;
 }
 
-@supports (grid-template-columns: subgrid) {
-    #content {
-        grid-template-columns: minmax(max-content, 256px) 1fr;
-        grid-template-rows: min-content min-content repeat(7, auto);
-
-        grid-template-areas:
-            "top-left header"
-            "top-left content"
-            "sh       content"
-            "pb       content"
-            "js       content"
-            "cp       content"
-            "njl      content"
-            "td       content"
-            "extra    content";
-    }
-
-    #profile,
-    #test-results,
-    #it-jobs {
-        grid-template-columns: subgrid;
-        grid-template-rows: subgrid;
-
-        grid-template-areas: unset;
-    }
-
-    #test-results {
-        display: grid;
-        grid-template-rows: subgrid;
-        grid-template-columns: repeat(4, 1fr);
-    }
-
-    #it-jobs {
-        display: grid;
-        grid-template-rows: subgrid;
-        grid-template-columns: auto;
-    }
-
-    #test-results > * {
-        display: grid;
-        grid-template-columns: subgrid;
-    }
+#it-jobs>* {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    text-align: left;
 }
 
 #test-results {
@@ -233,25 +202,86 @@ body {
         "extra extra extra extra";
 }
 
-#test-results ._16personalities { grid-column: 1; }
-#test-results .learning-styles { grid-column: 2; }
-#test-results .own { grid-column: 3; }
-#test-results .impacts { grid-column: 4; }
+#test-results ._16personalities {
+    grid-column: 1;
+}
+
+#test-results .learning-styles {
+    grid-column: 2;
+}
+
+#test-results .own {
+    grid-column: 3;
+}
+
+#test-results .impacts {
+    grid-column: 4;
+}
 
 #it-jobs {
     grid-template-areas:
-        "info"
-        "sh"
-        "pb"
-        "js"
-        "cp"
-        "njl"
-        "td"
-        "extra";
+        "info info info info info info info info"
+        "sh sh sh sh sh sh sh sh"
+        "pb pb pb pb pb pb pb pb"
+        "js js js js js js js js"
+        "cp cp cp cp cp cp cp cp"
+        "njl njl njl njl njl njl njl njl"
+        "td td td td td td td td"
+        "extra extra extra extra extra extra extra extra";
+}
+
+#it-jobs .col-1,
+#it-jobs .col-2,
+#it-jobs .col-3,
+#it-jobs .col-4,
+#it-jobs .col-5,
+#it-jobs .col-6,
+#it-jobs .col-7,
+#it-jobs .col-8 {
+    border-right: 1px dashed var(--foreground);
+    padding: 8px;
+    font-size: 0.8em;
+}
+
+#it-jobs .col-1 {
+    grid-column: 1;
+}
+
+#it-jobs .col-2 {
+    grid-column: 2;
+}
+
+#it-jobs .col-3 {
+    grid-column: 3;
+}
+
+#it-jobs .col-4 {
+    grid-column: 4;
+}
+
+#it-jobs .col-5 {
+    grid-column: 5;
+}
+
+#it-jobs .col-6 {
+    grid-column: 6;
+}
+
+#it-jobs .col-7 {
+    grid-column: 7;
+}
+
+#it-jobs .col-8 {
+    grid-column: 8;
+}
+
+#it-jobs .extra article {
+    grid-column-start: 1;
+    grid-column-end: 8;
 }
 
 @media screen and (max-width: 768px) {
     #mobile-btn {
         display: initial;
-    }    
+    }
 }
