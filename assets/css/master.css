@@ -20,7 +20,7 @@ body {
     --accent: rgb(67, 188, 144);
 
     /* background: var(--background); */
-    background: linear-gradient(45deg , var(--background), #fff);
+    background: linear-gradient(45deg, var(--background), #fff);
 
     /* --foreground: rgb(70, 62, 68);
     --background: rgb(248, 217, 245);
@@ -31,13 +31,14 @@ body {
 }
 
 @media screen and (prefers-color-scheme: dark) {
+
     :root,
     body {
         --foreground: rgb(207, 207, 207);
         --background: rgb(37, 38, 41);
         --accent: rgb(67, 188, 144);
 
-        background: linear-gradient(45deg , var(--background), rgb(56, 59, 68));
+        background: linear-gradient(45deg, var(--background), rgb(56, 59, 68));
     }
 }
 
@@ -78,11 +79,11 @@ code {
     display: grid;
 
     grid-template-columns: 1fr minmax(0, min(100vw, var(--max-width))) 1fr;
-    grid-template-rows: auto minmax(100vh, auto) auto;
+    grid-template-rows: auto minmax(100vh, auto) auto auto;
 
     width: 100%;
 
-    grid-template-areas: 'header header header''left content right''footer footer footer';
+    grid-template-areas: 'header header header''left content right''footer footer footer''copyright copyright copyright';
 }
 
 #left {
@@ -103,6 +104,13 @@ code {
 #footer {
     grid-area: footer;
     padding: 24px;
+}
+
+#footer+footer {
+    grid-area: copyright;
+    font-size: 0.75em;
+    text-align: center;
+
 }
 
 #footer .stack a {
@@ -144,7 +152,8 @@ blockquote {
     padding: 8px 12px;
 }
 
-blockquote a:last-child { /* source */
+blockquote a:last-child {
+    /* source */
     color: var(--foreground);
     filter: brightness(0.8);
     font-size: 9pt;
@@ -153,9 +162,11 @@ blockquote a:last-child { /* source */
     margin-top: 5px;
     transition: color 0.3s;
 }
+
 blockquote a:last-child:hover {
     color: var(--accent);
 }
+
 blockquote a:last-child:before {
     font-family: RemixLocal;
     content: '\00EA6D';
@@ -216,26 +227,60 @@ article table tr:not(:last-child) td {
 article table {
     border-collapse: collapse;
 }
+
 article table td {
     padding: 8px;
 }
+
 /* Nav */
 
 /* The 3 represents the number of children in $`header nav.horizontal`*/
-@media screen and (max-width: calc(3 * 180px)) {
+@media screen and (max-width: 768px) {
+
+    #main-grid {
+        grid-template-areas:
+            'header header header'
+            'const content content'
+            'footer footer footer'
+            'copyright copyright copyright';
+    }
+
     header nav.horizontal {
         flex-direction: column;
+        align-items: center;
+        max-height: 64px;
+    }
+
+    header nav.horizontal:hover,
+    header nav.horizontal:focus,
+    header nav.horizontal:active {
+        max-height: 100%;
+    }
+
+    header nav.horizontal:before {
+        content: '\00EA4E';
+        font-family: RemixLocal;
+        display: block;
+        width: 100%;
+        line-height: 64px;
+        font-weight: 900;
+        text-align: center;
     }
 
     div.dropdown label+ul.dropdown-content {
         position: relative;
-        top: initial;
+        top: initial !important;
+    }
+
+    footer *.horizontal {
+        flex-direction: column;
     }
 }
 
 header nav.horizontal {
     justify-content: flex-end;
     flex: 1;
+    user-select: none;
 }
 
 header input[type='checkbox'] {
@@ -260,11 +305,6 @@ header input[type='checkbox']:after:hover {
     background: var(--background);
     filter: brightness(0.8);
     transition: filter 0.3s;
-}
-
-header input[type='checkbox']:checked+nav.horizontal {
-    flex-direction: column;
-    align-items: center;
 }
 
 header nav.horizontal>* {
