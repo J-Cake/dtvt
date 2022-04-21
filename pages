@@ -1,6 +1,7 @@
 build/site/index.html,                                  template.jsml, page_title: Home,                    content: page/index.jsml,           content_type: text/jsml
 build/site/team.html,                                   template.jsml, page_title: Team,                    content: page/team.jsml,            content_type: text/jsml
 build/site/interview.html,                              template.jsml, page_title: Interview,               content: include/article.jsml,      content_type: text/html+md, page: page/interview.md 
+build/site/interview-transcript.html,                   template.jsml, page_title: Transcript,              content: include/markdown.jsml,     content_type: text/html+md, page: page/interview-transcript.md 
 build/site/technologies/cybersecurity.html,             template.jsml, page_title: Cybersecurity,           content: page/technologies.jsml,    content_type: text/html+md, tech: page/technologies/cybersecurity.md,  author: Taleb Dib
 build/site/technologies/chatbots.html,                  template.jsml, page_title: Chatbots,                content: page/technologies.jsml,    content_type: text/html+md, tech: page/technologies/chatbot.md,        author: Phi Bui
 build/site/technologies/raspberry-pi-and-arduino.html,  template.jsml, page_title: Raspberry Pi & Arduino,  content: page/technologies.jsml,    content_type: text/html+md, tech: page/technologies/microcomputers.md, author: Clayton Phillips

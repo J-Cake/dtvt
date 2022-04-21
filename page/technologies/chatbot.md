@@ -92,6 +92,8 @@ The growth of chatbot usage in recent decades is mainly due to the need for indu
 
 The future isn't that far off...
 
+<div class="horizontal"><iframe width="560" height="315" src="https://www.youtube.com/embed/4cnEMOp5MLM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
 # References
 
 Wouters, J, 2020, 3 chatbot types: _Which is best for your business? | Chatimize_, viewed 5 April 2022, \<[https://chatimize.com/chatbot-types](https://chatimize.com/chatbot-types)\>

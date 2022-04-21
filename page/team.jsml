@@ -29,9 +29,7 @@ section id = 'content' class = 'max-width tab-list' {
         img src = '/assets/res/img/taleb-dib.jpg' alt = 'Taleb Dib';
         [Taleb Dib]
     }
-    div class = 'person' id = 'extra' {
-        [...]
-    }
+    div class = 'person' id = 'extra' {}
 
     span id = 'top-left' [Do-the-thing]
 
@@ -203,7 +201,10 @@ Taleb Dib (s3543762) was born in Melbourne Australia with a middle-eastern mixed
             div class = 'cp' [Clayton Phillips]
             div class = 'njl' [Nuulaiti Junior Lale]
             div class = 'td' [Taleb Dib]
-            div class = 'extra' [thicc]
+            div class = 'extra' {
+                $include file = 'page/it-jobs.md' content_type = 'text/html+md';
+                []
+            }
             []
         }
 
