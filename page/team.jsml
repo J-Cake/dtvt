@@ -110,7 +110,7 @@ Taleb Dib (s3543762) was born in Melbourne Australia with a middle-eastern mixed
 * (Virtuoso) ISTP-A’s  greatest strength in a team setting are they’re ability to stay optimistic and relaxed in a crisis.   
 * Kinesthetic  learns through doing. A key characteristic of Kinesthetic learners is they favour participation in activities and tasks over watching. 
 * Executives are efficient, practical and systematic and eager to get the job done. 
-* The test results would indicate that Phi would play a very proactive role in the team. His eagerness to voice ideas and suggestions can keep the group progressing forward in the tasks at hand. ]
+* The test results would indicate that Phi would play a very proactive role in the team. His eagerness to voice ideas and suggestions can keep the group progressing forward in the tasks at hand.]
                 []
             }
             div class = 'js' {
@@ -128,7 +128,7 @@ Taleb Dib (s3543762) was born in Melbourne Australia with a middle-eastern mixed
                 div class = 'impact' [text/html+md
 * A turbulent virtuoso excels with tangible concepts. Visualising and describing mechanical problems with high precision. They will be able to guide others through challenging or complex concepts very efficiently 
 * Kinaesthetic learners are those who have a strong intuition for physical systems, and can often provide alternative perspectives on certain concepts by exploring and tinkering. 
-* Less creative often comes strongly detail-oriented, obsessive behaviours which would aid a team in producing a very polished and final project. ]
+* Less creative often comes strongly detail-oriented, obsessive behaviours which would aid a team in producing a very polished and final project.]
                 []
             }
             div class = 'cp' {
@@ -164,7 +164,7 @@ Taleb Dib (s3543762) was born in Melbourne Australia with a middle-eastern mixed
                 div class = 'impact' [text/html+md 
 * As a protagonist (ENFJ-T) helping others where help within reasonable capability can be provided is without a thought, this could be contributing a little on the website, doing some extra research, or even providing some ideas.  
 * This also ties in with creativity. This aspect allows the group to filter and solve problems more blatantly and with innovation. Moreover, searching for effective and efficient solutions for each problem. 
-* Being a visual learner, associating ideas, words and concepts with images assists in better understanding and retaining information. Having multiple different learning styles allows the team to perceive and think in a different perspective. ]
+* Being a visual learner, associating ideas, words and concepts with images assists in better understanding and retaining information. Having multiple different learning styles allows the team to perceive and think in a different perspective.]
                 []
             }
             div class = 'td' {
@@ -181,7 +181,7 @@ Taleb Dib (s3543762) was born in Melbourne Australia with a middle-eastern mixed
 [56.13](http://www.testmycreativity.com/share/101D60DC9f0E)]
                 div class = 'impact' [text/html+md 
 * INFJ is a breakdown of; Introversion, Intuition, Feeling and Judging. Also known as 'The Confidant', a very complex personality trait. Their personal growth is their main source of driving energy rather than shot bursts of pursuits, they are very proud and hold their heads high in their own beliefs. As INFJ's direct their energy inwards, they are energised by spending time alone and having a few close friends as they are highly intuitive and deep thinkers. 
-* Taleb scored a Creativity score of 56.13, which is below the standard average of users (62.86), though as shown in the diagram, Taleb does express Abstraction and Persistence as his two top qualities and does express them strongly. ]
+* Taleb scored a Creativity score of 56.13, which is below the standard average of users (62.86), though as shown in the diagram, Taleb does express Abstraction and Persistence as his two top qualities and does express them strongly.]
                 []
             }
             div class = 'extra' []
@@ -210,5 +210,9 @@ Taleb Dib (s3543762) was born in Melbourne Australia with a middle-eastern mixed
 
     }
 
+    a href = '/team-mobile.html' id = 'mobile-btn' {
+        button [View Mobile]
+        []
+    }
     script src = '/assets/src/grid-mgr.js' defer = 'true' []
 }

@@ -249,3 +249,9 @@ body {
         "td"
         "extra";
 }
+
+@media screen and (max-width: 768px) {
+    #mobile-btn {
+        display: initial;
+    }    
+}

@@ -1,0 +1,64 @@
+div class = 'collapsable' {
+    
+    input type = 'checkbox' id = 'collapse-${heading}';
+    label for = 'collapse-${heading}' {
+        h2 (heading)
+    }
+
+    article class = 'collapsable-content' {
+        $include file = '${open}' content_type = '${_content_type ?? "text/jsml"}';
+    }
+
+    style [text/css
+        .collapsable {
+            background: var(--background);
+            padding: 8px;
+            margin: 8px;
+        }
+        .collapsable .collapsable-content {
+            overflow: hidden;
+            display: none;
+            height: 100%;
+            transition: height 0.3;
+            padding: 24px;
+            box-sizing: border-box !important;
+        }
+
+        .collapsable input[type="checkbox"], .collapsable input[type="checkbox"] ~ label {
+            appearance: none;
+            display: inline-block;
+            font-size: 18pt;
+            line-height: 18pt;
+            cursor: pointer;
+        }
+
+        .collapsable input[type="checkbox"] ~ label h2 {
+            font-size: 18pt;
+        }
+
+        .collapsable input[type="checkbox"]:before {
+            content: '\00EA54';
+            font-family: RemixLocal;
+            font-size: 18pt;
+            line-height: 18pt;
+        }
+
+        .collapsable input[type="checkbox"]:checked:before {
+            content: '\00EA50';
+        }
+
+        .collapsable input[type="checkbox"]:checked ~ .collapsable-content {
+            display: block;
+        }
+
+        .collapsable a {
+            font-weight: normal;
+            text-decoration: underline;
+        }
+
+        .collapsable blockquote {
+            filter: brightness(0.8);
+        }
+    ]
+    []
+}

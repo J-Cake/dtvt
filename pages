@@ -1,5 +1,6 @@
 build/site/index.html,                                  template.jsml, page_title: Home,                    content: page/index.jsml,           content_type: text/jsml
 build/site/team.html,                                   template.jsml, page_title: Team,                    content: page/team.jsml,            content_type: text/jsml
+build/site/team-mobile.html,                            template.jsml, page_title: Team,                    content: page/team-mobile.jsml,     content_type: text/jsml
 build/site/interview/summary.html,                      template.jsml, page_title: Interview,               content: include/article.jsml,      content_type: text/html+md, page: page/interview.md 
 build/site/interview/transcript.html,                   template.jsml, page_title: Transcript,              content: include/markdown.jsml,     content_type: text/html+md, page: page/interview-transcript.md 
 build/site/technologies/cybersecurity.html,             template.jsml, page_title: Cybersecurity,           content: page/technologies.jsml,    content_type: text/html+md, tech: page/technologies/cybersecurity.md,  author: Taleb Dib
