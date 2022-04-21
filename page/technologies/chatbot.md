@@ -96,7 +96,7 @@ The future isn't that far off...
 
 Wouters, J, 2020, 3 chatbot types: _Which is best for your business? | Chatimize_, viewed 5 April 2022, \<[https://chatimize.com/chatbot-types](https://chatimize.com/chatbot-types)\>
 
-MobileMonkey, Inc. 2017, MobileMonkey, viewed 4 April 2022, \<(https://mobilemonkey.com/)[https://mobilemonkey.com/]\>
+MobileMonkey, Inc. 2017, MobileMonkey, viewed 4 April 2022, \<[https://mobilemonkey.com/](https://mobilemonkey.com/)\>
 
 Singtel, Optus P/L 2022, Optus Assistant, viewed 5 April 2022, \<[https://www.optus.com.au/](https://www.optus.com.au/)\>
 
