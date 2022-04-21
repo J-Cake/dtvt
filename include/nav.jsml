@@ -5,6 +5,7 @@ header {
     nav class = 'horizontal' {
         a href = '/' [Home]
         a href = '/team.html' [Team]
+        a href = '/interview.html' [Interview]
     
         div class = 'dropdown' {
             label [Technologies]

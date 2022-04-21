@@ -98,3 +98,11 @@ Layout.css defines general behaviours affecting layouts of various elements whic
     flex-direction: row;
     align-items: center;
 }
+
+.stack {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}

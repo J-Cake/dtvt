@@ -1,7 +1,27 @@
 div id = 'footer' class = 'horizontal darken' {
-    sup {
-        a href = 'https://github.com/J-Cake/jstempl' [Made with JSTempl]
+
+    div {
+        
     }
-    a href = 'https://github.com/J-Cake/do-the-thing-website' [GitHub Repo]
-    [text/html+md In accordance with [Assessment 2](/assets/res/outline.pdf)]
+
+    div class = 'horizontal' {
+        div class = 'stack' {
+            h4 [About]
+            a href = 'https://github.com/J-Cake/jstempl' [Made with JSTempl]
+            a href = '/assets/res/outline/pdf' [Built in accordance with Assessment 2]
+        }
+        
+        div class = 'stack' {
+            h4 [Documentation]
+            a href = 'https://github.com/J-Cake/do-the-thing-website' [GitHub Repo]
+            a href = '' [MS Teams Group]
+            a href = '' [Discord Group]
+            a href = '/references.html' [References]
+        }
+        div class = 'stack' {
+            h4 [Resources]
+            a href = '/interview/transcript.html' [Interview Transcript]
+            a href = '/interview/recording.mp4' [Interview Recording]
+        }
+    }
 }

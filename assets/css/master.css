@@ -105,6 +105,10 @@ code {
     padding: 24px;
 }
 
+#footer .stack a {
+    font-weight: normal;
+}
+
 /* General */
 
 h1,

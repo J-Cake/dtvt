@@ -82,12 +82,10 @@ body {
     grid-area: td;
 }
 
-/* #sh  { grid-area: sh; }
-#pb  { grid-area: pb; }
-#js  { grid-area: js; }
-#cp  { grid-area: cp; }
-#njl { grid-area: njl; }
-#td  { grid-area: td; } */
+#extra,
+.extra {
+    grid-area: extra;
+}
 
 .tab-header {
     grid-area: header;
@@ -105,7 +103,8 @@ body {
         "js"
         "cp"
         "njl"
-        "td";
+        "td"
+        "extra";
 
     /* grid-template-columns: subgrid; */
 
@@ -136,6 +135,7 @@ body {
     grid-area: content;
 
     grid-template-areas:
+        "profile test-results it-jobs"
         "profile test-results it-jobs"
         "profile test-results it-jobs"
         "profile test-results it-jobs"
@@ -180,7 +180,7 @@ body {
 @supports (grid-template-columns: subgrid) {
     #content {
         grid-template-columns: minmax(max-content, 256px) 1fr;
-        grid-template-rows: min-content min-content repeat(6, auto);
+        grid-template-rows: min-content min-content repeat(7, auto);
 
         grid-template-areas:
             "top-left header"
@@ -190,7 +190,8 @@ body {
             "js       content"
             "cp       content"
             "njl      content"
-            "td       content";
+            "td       content"
+            "extra    content";
     }
 
     #profile,
@@ -228,7 +229,8 @@ body {
         "js js js js"
         "cp cp cp cp"
         "njl njl njl njl"
-        "td td td td";
+        "td td td td"
+        "extra extra extra extra";
 }
 
 #test-results ._16personalities { grid-column: 1; }
@@ -244,5 +246,6 @@ body {
         "js"
         "cp"
         "njl"
-        "td";
+        "td"
+        "extra";
 }
