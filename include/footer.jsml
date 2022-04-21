@@ -15,6 +15,7 @@ div id = 'footer' class = 'horizontal darken' {
             a href = 'https://teams.microsoft.com/l/team/19%3amk6rC3AwdO-AoyLm5S0epy8SEedyT-PQcXqlSxzaYwI1%40thread.tacv2/conversations?groupId=4dbf9e01-501e-490c-bc0b-e649d7cfa36d&tenantId=d1323671-cdbe-4417-b4d4-bdb24b51316b' [MS Teams Group]
             a href = 'https://discord.com/channels/948424449370255361/948425177585287239' [Discord Group]
             a href = '/references.html' [References]
+            []
         }
         div class = 'stack' {
             h4 [Resources]

@@ -22,6 +22,10 @@ header {
 
             ul class = 'dropdown-content' {
                 a href = '/project/overview.html' [Overview]
+                a href = '/project/description.html' [Description]
+                a href = '/project/tools-and-technologies.html' [Tools and Technologies]
+                a href = '/project/skills.html' [Skills]
+                a href = '/project/outcome.html' [Outcome]
 
                 []
             }
