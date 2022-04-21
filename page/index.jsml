@@ -1,9 +1,8 @@
 section id = 'content' {
-    h1 [Do-the-thing] (/* Group name and spelling convention to be decided */)
+    h1 [Do-the-thing]
+    p [Doin' the thing since 2022]
 
-    article {
-        
-        $include file = 'page/team/team.md' content_type = 'text/html+md';
+    
 
-    }
+    img src = '/assets/res/img/clappa.png' alt = 'This glorious creature';
 }

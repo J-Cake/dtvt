@@ -5,6 +5,9 @@ section id = 'content' class = 'max-width tab-list' {
     script src = '/assets/src/tab-controller.js' defer = 'true' []
     script defer = 'true' [ window.addEventListener('load', () => window.tabController(document.querySelector('.tab-list'), true)); ]
 
+    div class = 'person' id = 'buffer' {
+
+    }
     div class = 'person' id = 'sh' {
         img src = '/assets/res/img/stephanie-hobourn.jpg' alt = 'Stephanie Hobourn';
         [Stephanie Hobourn]
@@ -191,19 +194,188 @@ Taleb Dib (s3543762) was born in Melbourne Australia with a middle-eastern mixed
         div id = 'it-jobs' class = 'tab' data-heading = 'IT Jobs' {
 
             div class = 'info' {
-                span [IT Jobs]
+                span [Link to Burning Glass]
+                span [Demand from employers]
+                span [Key Requirements]
+                span [How do the IT-specific skills set rank in terms of demand?]
+                span [How do the general skills rank in terms of demand?]
+                span [Three highest ranked IT-specific skills which are not in your required skill set?]
+                span [Highest ranked general skills which are not in your required skill set?]
+                span [Has your opinion changed?]
                 []
             }
 
-            div class = 'sh' [Stephanie Hobourn]
-            div class = 'pb' [Phi Bui]
-            div class = 'js' [Jacob Schneider]
-            div class = 'cp' [Clayton Phillips]
-            div class = 'njl' [Nuulaiti Junior Lale]
-            div class = 'td' [Taleb Dib]
-            div class = 'extra' {
-                $include file = 'page/it-jobs.md' content_type = 'text/html+md';
+            div class = 'sh' {
+                div class = 'col-1' [There's no job title from the Burning Glass data that is Project related, assuming the Information Technology Filter applied excludes Project only roles.]
+                div class = 'col-2' [No Program Manager Titles Listed]
+                div class = 'col-3' [text/html+md
+* Stakeholder Management
+* Team Leadership
+* Time Management
+* Financial Management.]
+                div class = 'col-4' [text/html+md
+* Communication Skills is highest, which could translate to Stakeholder Management 
+* Organisational skills could also be covered for Time Management, which is 3rd highest in demand.]
+                div class = 'col-5' [text/html+md
+* Project Management ranks 5th for IT specialised skills.]
+                div class = 'col-6' [text/html+md
+* SQL 
+* Javascript
+* Java]
+                div class = 'col-7' [text/html+md
+* Writing 
+* Trouble-shooting 
+* Detail-Oriented]
+                div class = 'col-8' [No]
                 []
+            }
+            div class = 'pb' {
+                div class = 'col-1' [17&#x1D57;&#x02B0; in the 'Top IT job titles' Burning Glass list.]
+                div class = 'col-2' [2,308 job opportunities on Seek.com.au as of 27/03/2022]
+                div class = 'col-3' [text/html+md 
+* JavaScript Programming 
+* Angular 
+* C# Programming 
+* Node.JS 
+* AWS 
+* Typescript Programming 
+* HTML/CSS 
+* API 
+* .Net Core 
+* React.JS]
+                div class = 'col-4' [text/html+md 
+* SQL, JavaScript & Javaare the top 3 IT skills listed]
+                div class = 'col-5' [text/html+md
+* Communication, Problem Solving & Organisational are the top 3 general skills listed]
+                div class = 'col-6' [text/html+md
+* Microsoft Windows 
+* SAP 
+* Linux]
+                div class = 'col-7' [text/html+md
+* Writing 
+* Planning 
+* Creativity]
+                div class = 'col-8' [No]
+                []
+            }
+            div class = 'js' {
+                div class = 'col-1' [Software Developer is listed, highest in demand when grouping occupations.]
+                div class = 'col-2' [337 listings for Software Developer. When grouping Occupations, it is highest in demand with 29,456 listings.]
+                div class = 'col-3' [text/html+md
+* C# Programming 
+* JavaScript 
+* Angular 
+* CSS 
+* Java 
+* AWS 
+* Computer Science 
+* TypeScript 
+* Git Version Control System 
+* HTML]
+                div class = 'col-4' [text/html+md
+* SQL, JavaScript & Java are the top 3 IT skills listed]
+                div class = 'col-5' [text/html+md
+* Analytical skills rank lower on the list. However there's still 2,997 listings]
+                div class = 'col-6' [text/html+md
+* Microsoft Windows 
+* Project Management 
+* SAP]
+                div class = 'col-7' [text/html+md
+* Communication Skills 
+* Problem Solving 
+* Organisational Skills]
+                div class = 'col-8' [No]
+                []
+            }
+            div class = 'cp' {
+                div class = 'col-1' [DevOps Engineer is not listed on Burning Glass]
+                div class = 'col-2' [3706 job listings on seek.com.au under the search term "DevOps Engineer"]
+                div class = 'col-3' [text/html+md
+* LINUX 
+* Ansible 
+* Cloud platform (AWS/Azure) 
+* Python/NodeJS/Bash 
+* Docker 
+* Kubernetes 
+* Continuous Integration tools 
+* DevSecOps tools 
+* Monitoring tools]
+                div class = 'col-4' [text/html+md
+* LINUX, Git and Python are generally toward the lower half on Burning Glass' demand graph.]
+                div class = 'col-5' [text/html+md
+* Collaboration - 5th]
+                div class = 'col-6' [text/html+md
+* SQL 
+* Javascript 
+* Java]
+                div class = 'col-7' [text/html+md
+* Communication Skills 
+* Problem Solving 
+* Organisational Skills]
+                div class = 'col-8' [No]
+                []
+            }
+            div class = 'njl' {
+                div class = 'col-1' [Technical Support Specialist is not listed within Burning Glass]
+                div class = 'col-2' [Job title is not listed]
+                div class = 'col-3' [text/html+md
+* Information Technology 
+* Microsoft Azure 
+* Python Programming 
+* Computer Science 
+* AWS 
+* Commercial Acumen 
+* Technical Aptitude 
+* Technical Support 
+* Teamwork]
+                div class = 'col-4' [text/html+md
+* Technical Support 
+* Python 
+* These are the top 3 skills ranked in terms of demand]
+                div class = 'col-5' [text/html+md
+* Team work is ranked 5th in generic skills list]
+                div class = 'col-6' [text/html+md
+* Microsoft windows 
+* JavaScript 
+* Java]
+                div class = 'col-7' [text/html+md
+* Communication Skills 
+* Problem solving 
+* Organisational Skills]
+                div class = 'col-8' [No]
+                []
+            }
+            div class = 'td' {
+                div class = 'col-1' [There are no jobs.]
+                div class = 'col-2' [1,971 Job opportunities on seek as of 28/03/2022]
+                div class = 'col-3' [text/html+md 
+* JavaScript Programming 
+* Java Programming 
+* API 
+* Software Development 
+* DevOps 
+* Microservices 
+* Node.JS 
+* Microsoft Azure 
+* C # Programming]
+                div class = 'col-4' [text/html+md
+* Java Script, Java Programming & API]
+                div class = 'col-5' [text/html+md
+* Leadership Communication (Support and guidance)]
+                div class = 'col-6' [text/html+md
+* API 
+* Javascript Programming/Java Programming 
+* C# Programming]
+                div class = 'col-7' [text/html+md
+* Multitasking 
+* Technical Skills]
+                div class = 'col-8' [No]
+                []
+            }
+            div class = 'extra' {
+                article {
+                    $include file = 'page/it-jobs.md' content_type = 'text/html+md';
+                }
             }
             []
         }
