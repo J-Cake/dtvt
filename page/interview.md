@@ -2,7 +2,7 @@
 
 Alex Krummer, a Solutions Architect that works within Cyber Security at Suncorp was interviewed by Jacob and Stephanie on 4th April via Microsoft teams in order to understand what daily work looks like for an IT Professional. The Interview was recorded and saved in Microsoft Teams: IT Professional – Interview. 
 
-<a href="/interview-transcript.html"><button>View Transcript</button></a>
+<a href="/interview/transcript.html"><button>View Transcript</button></a>
 
 ## What kind of work is done by the IT professional?  
 
