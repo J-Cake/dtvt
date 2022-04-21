@@ -91,3 +91,15 @@ The only reason I haven’t linked all the devices in the home is due to the con
 The growth of chatbot usage in recent decades is mainly due to the need for industries to have an online presence and accessibility 24/7. With this exposure, they must cater to the increased volume of queries from consumers, while maintaining a high level of personalized service. Though many consumers are content to self-service via computer chatbots, there will always be some who aren’t comfortable with the idea of talking to a machine. But a day will come when it’ll be near impossible for us to distinguish the difference between a chatbot and human support staff. As AI technology advances, we see chatbots become more lifelike to the point where they can replicate such emotions as joy and sadness. Paired with the progress that the robotics field has made in recent years, it’s just a matter of time until we see actual robot butlers able to do menial jobs around the office and home.
 
 The future isn't that far off...
+
+# References
+
+Wouters, J, 2020, 3 chatbot types: _Which is best for your business? | Chatimize_, viewed 5 April 2022, \<[https://chatimize.com/chatbot-types](https://chatimize.com/chatbot-types)\>
+
+MobileMonkey, Inc. 2017, MobileMonkey, viewed 4 April 2022, \<(https://mobilemonkey.com/)[https://mobilemonkey.com/]\>
+
+Singtel, Optus P/L 2022, Optus Assistant, viewed 5 April 2022, \<[https://www.optus.com.au/](https://www.optus.com.au/)\>
+
+SAS Institute, 2022, _Machine Learning: what it is and why it matters_, viewed 5 April 2022, \<[https://www.sas.com/en_au/insights/analytics/machine-learning.html](https://www.sas.com/en_au/insights/analytics/machine-learning.html)\>
+
+Wikipedia, 2022, _Natural language processing_, viewed 5 April, \<[https://en.wikipedia.org/wiki/Natural_language_processing](https://en.wikipedia.org/wiki/Natural_language_processing)\>
