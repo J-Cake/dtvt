@@ -3,3 +3,7 @@ build
 .pnpm*
 template.js
 nopages
+.idea/.gitignore
+.idea/Assessment 2 Team Project.iml
+.idea/modules.xml
+.idea/vcs.xml
