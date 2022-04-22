@@ -18,16 +18,12 @@ body {
     --foreground: #333;
     --background: rgb(205, 210, 212);
     --accent: rgb(67, 188, 144);
+    --accent: rgb(171, 245, 218);
 
-    /* background: var(--background); */
-    background: linear-gradient(45deg, var(--background), #fff);
-
-    /* --foreground: rgb(70, 62, 68);
-    --background: rgb(248, 217, 245);
-    --accent: rgb(201, 108, 177);
-    background-image: url(/assets/res/img/big-homepage_heart.png), url(/assets/res/img/19-198517_transparent-heart-background-png-transparent-background-pink-hearts.png);
-    background-size: fit;
-    background-repeat: no-repeat; */
+    background: url(/assets/res/background.svg), linear-gradient(45deg, var(--background), #fff);
+    background-size: 100% auto;
+    background-position: 0 0;
+    background-repeat: no-repeat;
 }
 
 @media screen and (prefers-color-scheme: dark) {
@@ -38,7 +34,10 @@ body {
         --background: rgb(37, 38, 41);
         --accent: rgb(67, 188, 144);
 
-        background: linear-gradient(45deg, var(--background), rgb(56, 59, 68));
+        background: url(/assets/res/background.svg), linear-gradient(45deg, var(--background), rgb(56, 59, 68));
+        background-size: 100% auto;
+        background-position: 0 0;
+        background-repeat: no-repeat;
     }
 }
 
