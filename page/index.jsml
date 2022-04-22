@@ -2,7 +2,36 @@ section id = 'content' {
     h1 [Do-the-thing]
     p [Doin' the thing since 2022]
 
-    
+    script defer = 'true' [
+        window.addEventListener('load', function() {
+            const group = document.querySelector('img#group');
+            const clappa = document.querySelector('img#clappa');
 
-    img src = '/assets/res/img/clappa.png' alt = 'This glorious creature';
+            group.addEventListener('click', () => {
+                group.classList.remove('active');
+                clappa.classList.add('active');
+            });
+
+            clappa.addEventListener('click', () => {
+                clappa.classList.remove('active');
+                group.classList.add('active');
+            });
+        });
+    ]
+
+    style [
+        img#group, img#clappa {
+            width: 100%;
+            max-width: 100%;
+        }
+        img#group.active, img#clappa.active {
+            display: block;
+        }
+        img#group:not(.active), img#clappa:not(.active) {
+            display: none;
+        }
+    ]
+
+    img src = '/assets/res/img/group.png' alt = 'The Group' id = 'group' class = 'active';
+    img src = '/assets/res/img/clappa.png' alt = 'This glorious creature' id = 'clappa';
 }
