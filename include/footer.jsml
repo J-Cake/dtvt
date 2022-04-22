@@ -22,7 +22,7 @@ div id = 'footer' class = 'horizontal left darken' {
     div class = 'stack' {
         h4 [Meetings]
 
-        a href = '/meetings.html' [Meetings]
+        a href = '/meetings.html' [Agendas and Actions]
         
         h6 [Recordings]
 
