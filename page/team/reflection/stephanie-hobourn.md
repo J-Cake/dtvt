@@ -1,0 +1,1 @@
+We all had different strengths which was beneficial as we could lean on each others strengths. We could improve our time management within meetings as we would get distracted on non-work related topics. I was surprised how easy we worked together. We have got to know each other quite well so we are looking forward to the next assignment.  

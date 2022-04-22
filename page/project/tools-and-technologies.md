@@ -1,4 +1,4 @@
-# The vegan detectr
+# The vegan detector
 
 ## Tools and Technologies
 

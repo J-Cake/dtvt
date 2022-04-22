@@ -1,0 +1,7 @@
+Something that contributed greatly to our group's completion of the Assessment 2 report was organisation. The group was always organised with scheduled tasks assigned to each member. Frequently having dates that were set for meetings, encouraging discussions on progress and ideas on a weekly routine. Everyone was welcoming from the very start, making it easier to communicate as a constructive team. 
+
+Personally, everyone contributed what they could within their capabilities. Although, I am certain that I should have contributed more. Not knowing how to do something is just an excuse. From writing up research reports to building a website. All aspects need to be addressed and reformed. 
+
+A certain factor surprised me the most, and that was the gap of relevant knowledge between our collaborators. As I expected since joining this unit, I was the most clueless person when it came to IT knowledge. Witnessing all these brains come together to construct something as a team really surprised me. Whenever there was a missing piece to the puzzle, someone would always have that last bit to mend the whole picture. 
+
+Working as a group, each member is expected to pull their weight. Sometimes life commitments interfere with Uni commitments or just life in general. Members might not be able to participate in activities. This all just comes down to communication, staying connected with our members, updating them on circumstances that could affect a goal, will always allow for countermeasures. 

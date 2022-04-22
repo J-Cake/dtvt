@@ -1,0 +1,7 @@
+Our team coordination of tasks was a walk in the park, everybody knew how to delegate themselves jobs and things to do & the outcome of this was amazing as we all got along very well. The 'vibe' of the group was definitely a strong highlight for myself as an introvert, it can be difficult at times to mould well with different personalities & this group nailed it perfectly. 
+
+Personally, I don’t believe that there is area to improve on. As I see it, we are all on different levels in life & area's, we worked very well with each other & alongside Online Studying as a whole. The surprising part of this assignment was how well the group clicked. We did become a family quite quickly and the anonymous feeling of thinking you've known them for a while is what we settled with. Nobody was cheating nor lacking on one another.  
+
+This assignment has provided me knowledge in the area of online work. Time management is definitely a task itself, something that I will need to look further into and revise for many future endeavours. Though, the journey of understanding what is at stake and what we need to do to accomplish our tasks. 
+
+* Different personalities, with team members willing to step up and play certain roles without being allocated to it.  

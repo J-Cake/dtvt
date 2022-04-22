@@ -49,12 +49,12 @@ Taleb Dib (s3543762) was born in Melbourne Australia with a middle-eastern mixed
 
         div id = 'it-jobs' class = 'tab' data-heading = 'IT ' {
             
-            $include file = 'include/collapsable.jsml' heading = "Stephanie's Ideal Job" open = 'page/team/stephanie-hobourn-job.md' _content_type = 'text/html+md';
-            $include file = 'include/collapsable.jsml' heading = "Phi's Ideal Job" open = 'page/team/phi-bui-job.md' _content_type = 'text/html+md';
-            $include file = 'include/collapsable.jsml' heading = "Jacob's Ideal Job" open = 'page/team/jacob-schneider-job.md' _content_type = 'text/html+md';
-            $include file = 'include/collapsable.jsml' heading = "Clayton's Ideal Job" open = 'page/team/clayton-phillips-job.md' _content_type = 'text/html+md';
-            $include file = 'include/collapsable.jsml' heading = "Nuulaiti's Ideal Job Lale" open = 'page/team/nuulaiti-junior-lale-job.md' _content_type = 'text/html+md';
-            $include file = 'include/collapsable.jsml' heading = "Taleb's Ideal Job" open = 'page/team/taleb-dib-job.md' _content_type = 'text/html+md';
+            $include file = 'include/collapsable.jsml' heading = "Stephanie" open = 'page/team/job/stephanie-hobourn.md' _content_type = 'text/html+md';
+            $include file = 'include/collapsable.jsml' heading = "Phi" open = 'page/team/job/phi-bui.md' _content_type = 'text/html+md';
+            $include file = 'include/collapsable.jsml' heading = "Jacob" open = 'page/team/job/jacob-schneider.md' _content_type = 'text/html+md';
+            $include file = 'include/collapsable.jsml' heading = "Clayton" open = 'page/team/job/clayton-phillips.md' _content_type = 'text/html+md';
+            $include file = 'include/collapsable.jsml' heading = "Junior" open = 'page/team/job/nuulaiti-junior-lale.md' _content_type = 'text/html+md';
+            $include file = 'include/collapsable.jsml' heading = "Taleb" open = 'page/team/job/taleb-dib.md' _content_type = 'text/html+md';
 
             article {
                 $include file = 'page/it-jobs.md' content_type = 'text/html+md';
