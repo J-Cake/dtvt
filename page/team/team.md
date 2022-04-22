@@ -33,7 +33,7 @@ Since he was little, Jake has always been extremely passionate about computers a
 
 ![Clayton Phillips](/assets/res/img/clayton-phillips.jpg)
 
-Clayton Phillips (s3952384) was born in Dubbo, NSW and went through high school in Bega, NSW where he graduated in 2021. He enjoys spending his spare time playing sports and various competitive online games. Coming from a technology savvy family, he quickly gained interest in all computer-related things. But it was during school and the time spent outside of it that he eventually found programming to be his favourite of them all. Clayton's IT experience understandably is not extensive. Although, he has done an AWS Cloud Practitioner Certification through schoolwork experience. 
+Clayton Phillips (s3952384) was born in Dubbo, NSW and went through high school in Bega, NSW where he graduated in 2021. He enjoys spending his spare time playing sports and various competitive online games. Coming from a technologically savvy family, he quickly gained interest in all computer-related things. But it was during school and the time spent outside of it that he eventually found programming to be his favourite of them all. Clayton's IT experience understandably is not extensive. Although, he has done an AWS Cloud Practitioner Certification through schoolwork experience. 
 
 ### Nuulaiti Junior Lale
 
