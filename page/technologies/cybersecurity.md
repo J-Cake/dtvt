@@ -35,8 +35,6 @@ In the upcoming years, there will be a dramatic demand in cybersecurity speciali
 - Forensics - replaying attacks to help security teams better mitigate future breaches.
 - Back-up and mirroring; and 
 - Web application firewalls (WAF) - protecting against cross-site forgery, cross-site-scripting (XSS), file inclusion, and SQL injection.
- 
-
 
 
 The next-gen endpoint security is full of great technological opportunities to the community, engaging with a selection of options mentioned by Avast Business Team (2019):
@@ -71,26 +69,26 @@ My friends personally are quite computer savvy, it is a good benefit to acknowle
  
 ## Referencing
  
-Chadd, K (2020), 'The History of Cybersecurity', Avast, viewed 24 November 2020, \<[https://blog.avast.com/history-of-cybersecurity-avast](https://blog.avast.com/history-of-cybersecurity-avast)\>
+Chadd, K (2020), _The History of Cybersecurity_, Avast, viewed 24 November 2020, \<[https://blog.avast.com/history-of-cybersecurity-avast](https://blog.avast.com/history-of-cybersecurity-avast)\>
  
-Avast Business Team, (2018) '3 Cybersecurity tests and tools for protecting your small business', Avast, viewed 28 November 2018, \<[https://blog.avast.com/cybersecurity-tests](https://blog.avast.com/cybersecurity-tests)\>
+Avast Business Team, (2018) _3 Cybersecurity tests and tools for protecting your small business_, Avast, viewed 28 November 2018, \<[https://blog.avast.com/cybersecurity-tests](https://blog.avast.com/cybersecurity-tests)\>
  
-Morgan, S (2019), 'Global Cybersecurity Spending Predicted to Exceed $1 Trillion from 2017-2021', Cybercrime Magazine, viewed 10 June 2019, \<[https://cybersecurityventures.com/cybersecurity-market-report/](https://cybersecurityventures.com/cybersecurity-market-report/)\>
+Morgan, S (2019), _Global Cybersecurity Spending Predicted to Exceed $1 Trillion from 2017-2021_, Cybercrime Magazine, viewed 10 June 2019, \<[https://cybersecurityventures.com/cybersecurity-market-report/](https://cybersecurityventures.com/cybersecurity-market-report/)\>
  
-Avast Business Team, (2019) 'The next generation of endpoint security', Avast, viewed 5 October 2019, \<[https://blog.avast.com/the-next-generation-of-endpoint-security](https://blog.avast.com/the-next-generation-of-endpoint-security)\>
+Avast Business Team, (2019) _The next generation of endpoint security_, Avast, viewed 5 October 2019, \<[https://blog.avast.com/the-next-generation-of-endpoint-security](https://blog.avast.com/the-next-generation-of-endpoint-security)\>
  
-CISA, (2009), 'What is Cybersecurity?', Cybersecurity & Infrastructure Security Agency, viewed 14 November 2019, \<[https://www.cisa.gov/uscert/ncas/tips/ST04-001?msclkid=bee303b5b2f011ecabb6aa81c981051a]\>
+CISA, (2009), _What is Cybersecurity?_, Cybersecurity & Infrastructure Security Agency, viewed 14 November 2019, \<[https://www.cisa.gov/uscert/ncas/tips/ST04-001?msclkid=bee303b5b2f011ecabb6aa81c981051a]\>
  
-VIC.GOV.AU, ND, 'Certificate IV in Cyber Security', Victorian Skills Gateway, \<[https://www.skills.vic.gov.au/s/coursedetails?id=22334VIC&type=course&keyword=Certificate%20IV%20in%20Cyber%20Security&ft=1](https://www.skills.vic.gov.au/s/coursedetails?id=22334VIC&type=course&keyword=Certificate%20IV%20in%20Cyber%20Security&ft=1)\>
+VIC.GOV.AU, ND, _Certificate IV in Cyber Security_, Victorian Skills Gateway, \<[https://www.skills.vic.gov.au/s/coursedetails?id=22334VIC&type=course&keyword=Certificate%20IV%20in%20Cyber%20Security&ft=1](https://www.skills.vic.gov.au/s/coursedetails?id=22334VIC&type=course&keyword=Certificate%20IV%20in%20Cyber%20Security&ft=1)\>
 
-Cawley, C 2021, *The 10 Best Raspberry Pi Zero 2 W Projects*, MUO, viewed 5 April 2022, \<[https://www.makeuseof.com/tag/10-best-raspberry-pi-zero-projects-far](https://www.makeuseof.com/tag/10-best-raspberry-pi-zero-projects-far/#:~:text=The%2010%20Best%20Raspberry%20Pi%20Zero%202%20W,Raspberry%20Pi%20Zero%20Server.%20...%20More%20items...%20)\>.
+Cawley, C 2021, _The 10 Best Raspberry Pi Zero 2 W Projects_, MUO, viewed 5 April 2022, \<[https://www.makeuseof.com/tag/10-best-raspberry-pi-zero-projects-far](https://www.makeuseof.com/tag/10-best-raspberry-pi-zero-projects-far/#:~:text=The%2010%20Best%20Raspberry%20Pi%20Zero%202%20W,Raspberry%20Pi%20Zero%20Server.%20...%20More%20items...%20)\>.
 
-Khang 2020, *17 Best Raspberry Pi Projects for 2021 | Simply Smarter Circuitry Blog*, viewed 5 April 2022, \<[https://www.circuitspecialists.com/blog/best-raspberry-pi-projects](https://www.circuitspecialists.com/blog/best-raspberry-pi-projects/#:~:text=%2017%20Best%20Raspberry%20Pi%20Projects%20for%202021,has%20an%20easy-to-setup%20software%20counterpart.%20OctoPrint%2C...%20More%20)\>.
+Khang 2020, _17 Best Raspberry Pi Projects for 2021 | Simply Smarter Circuitry Blog_, viewed 5 April 2022, \<[https://www.circuitspecialists.com/blog/best-raspberry-pi-projects](https://www.circuitspecialists.com/blog/best-raspberry-pi-projects/#:~:text=%2017%20Best%20Raspberry%20Pi%20Projects%20for%202021,has%20an%20easy-to-setup%20software%20counterpart.%20OctoPrint%2C...%20More%20)\>.
 
-*Raspberry Pi - Wikipedia* 2022, viewed 3 April 2022, \<[https://en.wikipedia.org/wiki/Raspberry_Pi](https://en.wikipedia.org/wiki/Raspberry_Pi)\>.
+_Raspberry Pi - Wikipedia_ 2022, viewed 3 April 2022, \<[https://en.wikipedia.org/wiki/Raspberry_Pi](https://en.wikipedia.org/wiki/Raspberry_Pi)\>.
 
-Raspberry Pi 2022, *Raspberry Pi 4 Model B specifications – Raspberry Pi, Raspberry Pi*, viewed 3 April 2022, \<[https://www.raspberrypi.com/products/raspberry-pi-4-model-b/specifications/](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/specifications/)\>.
+Raspberry Pi 2022, _Raspberry Pi 4 Model B specifications – Raspberry Pi, Raspberry Pi_, viewed 3 April 2022, \<[https://www.raspberrypi.com/products/raspberry-pi-4-model-b/specifications/](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/specifications/)\>.
 
-Todd 2021, *Arduino vs Raspberry Pi | Simply Smarter Circuitry Blog*, viewed 5 April 2022, \<[https://www.circuitspecialists.com/blog/arduino-vs-raspberry-pi/](https://www.circuitspecialists.com/blog/arduino-vs-raspberry-pi/)\>.
+Todd 2021, _Arduino vs Raspberry Pi | Simply Smarter Circuitry Blog_, viewed 5 April 2022, \<[https://www.circuitspecialists.com/blog/arduino-vs-raspberry-pi/](https://www.circuitspecialists.com/blog/arduino-vs-raspberry-pi/)\>.
 
-*What is a Raspberry Pi and How Does it Work? | Pi Day* 2022, viewed 3 April 2022, \<[https://www.piday.org/whats-a-raspberry-pi-and-how-does-it-work/](https://www.piday.org/whats-a-raspberry-pi-and-how-does-it-work/)\>.
+_What is a Raspberry Pi and How Does it Work? | Pi Day_ 2022, viewed 3 April 2022, \<[https://www.piday.org/whats-a-raspberry-pi-and-how-does-it-work/](https://www.piday.org/whats-a-raspberry-pi-and-how-does-it-work/)\>.
