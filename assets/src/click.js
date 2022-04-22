@@ -2,6 +2,7 @@ const sound = new Audio('/assets/res/sound_effect.mp3');
 const sofunny = new Audio('/assets/res/so-funny.mp3');
 const auuuuuuugh = new Audio('/assets/res/auuuuuuugh.mp3');
 const waduhek = new Audio('/assets/res/waduhek.mp3');
+const michaelrosen = new Audio('/assets/res/michael-rosen.mp3');
 
 const getClosest = function (elem, selector) {
 
@@ -28,6 +29,8 @@ sound.addEventListener('canplaythrough', function () {
             auuuuuuugh.play();
         else if (getClosest(el, ['phi', 'pb']))
             waduhek.play();
+        else if (getClosest(el, ['jacob', 'jake', 'js']))
+            michaelrosen.play();
         else
             sound.play();
 
