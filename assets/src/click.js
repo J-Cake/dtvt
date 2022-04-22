@@ -22,7 +22,7 @@ sound.addEventListener('canplaythrough', function () {
 
         event.stopPropagation();
 
-        if (getClosest(el, ['steph', 'sh']))
+        if (getClosest(el, ['steph', 'sh', 'home-img']))
             sofunny.play();
         else if (getClosest(el, ['clayton', 'cp']))
             auuuuuuugh.play();
