@@ -32,6 +32,6 @@ section id = 'content' {
         }
     ]
 
-    img src = '/assets/res/img/group.png' alt = 'The Group' id = 'group' class = 'active';
-    img src = '/assets/res/img/clappa.png' alt = 'This glorious creature' id = 'clappa';
+    img src = '/assets/res/img/group.png' alt = 'The Group' id = 'group' class = 'active home-img';
+    img src = '/assets/res/img/clappa.png' alt = 'This glorious creature' id = 'clappa' class = 'home-img';
 }
