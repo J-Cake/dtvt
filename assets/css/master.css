@@ -102,6 +102,7 @@ code {
 #footer {
     grid-area: footer;
     padding: 24px;
+    font-size: 0.85em;
 }
 
 #footer+footer {

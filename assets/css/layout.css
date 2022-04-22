@@ -36,6 +36,13 @@ Layout.css defines general behaviours affecting layouts of various elements whic
     width: 100%;
 }
 
+.horizontal.left {
+    justify-content: flex-start !important;
+}
+.horizontal.left > *{
+    min-width: 180px !important;
+}
+
 .match-height {
     flex-grow: 1;
 }

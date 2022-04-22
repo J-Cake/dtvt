@@ -1,0 +1,18 @@
+div id = 'content' {
+    article id = 'article' {
+        $include file = '${page}' content_type = 'text/html+md';
+    }
+
+    style [text/css
+        article#article table, article#article table * {
+            text-align: left !important;
+        }
+
+        article table {
+            width: 100%;
+            flex: 1;
+            margin: 0;
+            padding: 0;
+        }
+    ]
+}

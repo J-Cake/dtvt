@@ -3,7 +3,7 @@ article id = 'content' {
 
     h1 [Check out the reflections from each of our team members]
 
-    $include file = 'include/collapsable.jsml' heading = "Stephanie" open = 'page/team/reflection/stephanie-hobourn.md' _content_type = 'text/html+md';
+    $include file = 'include/collapsable.jsml' heading = "Stephanie" open = 'page/team/reflection/stephanie-hobourn.md' _content_type = 'text/html+md' class = 'sh';
     $include file = 'include/collapsable.jsml' heading = "Phi" open = 'page/team/reflection/phi-bui.md' _content_type = 'text/html+md';
     $include file = 'include/collapsable.jsml' heading = "Jacob" open = 'page/team/reflection/jacob-schneider.md' _content_type = 'text/html+md';
     $include file = 'include/collapsable.jsml' heading = "Clayton" open = 'page/team/reflection/clayton-phillips.md' _content_type = 'text/html+md';

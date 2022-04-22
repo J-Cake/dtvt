@@ -15,3 +15,4 @@ build/site/project/tools-and-technologies.html,         template.jsml, page_titl
 build/site/project/references.html,                     template.jsml, page_title: Tools and Technologies,  content: include/article.jsml,      content_type: text/html+md, page: page/project/references.md
 build/site/references.html,                             template.jsml, page_title: Tools and Technologies,  content: include/article.jsml,      content_type: text/html+md, page: page/references.md
 build/site/reflection.html,                             template.jsml, page_title: Reflection,              content: page/reflection.jsml,      content_type: text/html+md, page: page/reflection.md
+build/site/meetings.html,                               template.jsml, page_title: Reflection,              content: include/left.jsml,         content_type: text/html+md, page: page/meetings.md
