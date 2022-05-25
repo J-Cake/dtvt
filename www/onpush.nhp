@@ -22,6 +22,8 @@ section {
         const cp = await require('node:child_process');
         const iter = await require('jcake-utils/iter');
 
+        console.log(body);
+
         const child = cp.spawn('git', ['pull']);
 
         for await (const i of iter.interleave(child.stdout, child.stderr))
