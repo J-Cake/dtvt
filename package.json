@@ -1,3 +1,7 @@
 {
-    "name": "dtvt"
+    "name": "dtvt",
+    "type": "module",
+    "scripts": {
+        "serve": "pnpm exec nhp www public/ --port 6543 --markdown md.jsml --error 404 www/404.md"
+    }
 }

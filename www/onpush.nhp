@@ -1,0 +1,30 @@
+style [text/css
+
+    :root, html, body {
+        margin: 0;
+        padding: 0;
+        max-width: 100vw;
+        overflow-x: hidden;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    pre {
+        font-family: 'Inconsolata';
+        font-size: 11pt;
+    }
+]
+
+section {
+    [text/js+node
+        const cp = await require('node:child_process');
+        const iter = await require('jcake-utils/iter');
+
+        const child = cp.spawn('git', ['pull']);
+
+        for await (const i of iter.interleave(child.stdout, child.stderr))
+            yield `<pre>${i.toString()}</pre>`;
+    ]
+}
