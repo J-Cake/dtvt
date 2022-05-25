@@ -36,9 +36,9 @@ section {
         yield `<pre>Exited with code: ${code}</pre>`;
 
         if (code != 0)
-            console.error(`[UpdateClient] - ${chalk.red(new Date().toISOString())} - Update failed - exited with code ${code}`);
+            console.error(`[UpdateClient] - ${chalk.yellow(new Date().toISOString())} - ${chalk.red(`Update failed - exited with code ${code}`)}`);
         else
-            console.log(`[UpdateClient] - ${chalk.green(new Date().toISOString())} - Update succeeded`);
+            console.log(`[UpdateClient] - ${chalk.yellow(new Date().toISOString())} - ${chalk.green('Update succeeded')}`);
 
         console.log(`[UpdateClient] - ${chalk.yellow(new Date().toISOString())} - Update complete`);
     ]
