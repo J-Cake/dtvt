@@ -1,86 +1,90 @@
-link rel = 'stylesheet' href = '/assets/css/team4.css';
+[<!DOCTYPE html>]
 
-section id = 'content' class = 'max-width tab-list' {
+$use template = 'template.jsml' doc_title = 'About the Team' {
 
-    script src = '/assets/src/tab-controller.js' defer = 'true' []
-    script defer = 'true' [ window.addEventListener('load', () => window.tabController(document.querySelector('.tab-list'), true)); ]
+    link rel = 'stylesheet' href = '/assets/css/team4.css';
 
-    div class = 'person' id = 'buffer' {
+    section id = 'content' class = 'max-width tab-list' {
 
-    }
-    div class = 'person' id = 'sh' {
-        img src = '/assets/res/img/stephanie-hobourn.jpg' alt = 'Stephanie Hobourn';
-        [Stephanie Hobourn]
-    }
-    div class = 'person' id = 'pb' {
-        img src = '/assets/res/img/phi-bui.jpeg' alt = 'Phi Bui';
-        [Phi Bui]
-    }
-    div class = 'person' id = 'js' {
-        img src = '/assets/res/img/jacob-schneider.jpg' alt = 'Jacob Schneider';
-        [Jacob Schneider]
-    }
-    div class = 'person' id = 'cp' {
-        img src = '/assets/res/img/clayton-phillips.jpg' alt = 'Clayton Phillips';
-        [Clayton Phillips]
-    }
-    div class = 'person' id = 'njl' {
-        img src = '/assets/res/img/nuulaiti-junior-lale.png' alt = 'Nuulaiti Junior Lale';
-        [Nuulaiti Junior Lale]
-    }
-    div class = 'person' id = 'td' {
-        img src = '/assets/res/img/taleb-dib.jpg' alt = 'Taleb Dib';
-        [Taleb Dib]
-    }
-    div class = 'person' id = 'extra' {}
+        script src = '/assets/src/tab-controller.js' defer = 'true' []
+        script defer = 'true' [ window.addEventListener('load', () => window.tabController(document.querySelector('.tab-list'), true)); ]
 
-    span id = 'top-left' [Do-the-thing]
+        div class = 'person' id = 'buffer' {
 
-    section id = 'columns' class = 'tab-body' {
-        div id = 'profile' class = 'tab' data-heading = 'Profile' {
+        }
+        div class = 'person' id = 'sh' {
+            img src = '/assets/res/img/stephanie-hobourn.jpg' alt = 'Stephanie Hobourn';
+            [Stephanie Hobourn]
+        }
+        div class = 'person' id = 'pb' {
+            img src = '/assets/res/img/phi-bui.jpeg' alt = 'Phi Bui';
+            [Phi Bui]
+        }
+        div class = 'person' id = 'js' {
+            img src = '/assets/res/img/jacob-schneider.jpg' alt = 'Jacob Schneider';
+            [Jacob Schneider]
+        }
+        div class = 'person' id = 'cp' {
+            img src = '/assets/res/img/clayton-phillips.jpg' alt = 'Clayton Phillips';
+            [Clayton Phillips]
+        }
+        div class = 'person' id = 'njl' {
+            img src = '/assets/res/img/nuulaiti-junior-lale.png' alt = 'Nuulaiti Junior Lale';
+            [Nuulaiti Junior Lale]
+        }
+        div class = 'person' id = 'td' {
+            img src = '/assets/res/img/taleb-dib.jpg' alt = 'Taleb Dib';
+            [Taleb Dib]
+        }
+        div class = 'person' id = 'extra' {}
 
-            div class = 'info' []
+        span id = 'top-left' [Do-the-thing]
 
-            div class = 'sh' [text/html+md
+        section id = 'columns' class = 'tab-body' {
+            div id = 'profile' class = 'tab' data-heading = 'Profile' {
+
+                div class = 'info' []
+
+                div class = 'sh' [text/html+md
 ## [Stephanie Hobourn](https://stephani1994.github.io/Assessment-1/)
 Stephanie Hobourn (S3952390) grew up in Shellharbour and moved to Sydney at 18 for more work opportunities. Stephanie started her higher education journey in 2018, attempting to complete it part time, and took a break until 2020 where she picked up the degree at a full-time capacity. She is on track to graduate in May 2023, if she continues full time. Her hobbies include yoga, food, & cats. Stephanie is interested in IT as she currently works in technology as a Portfolio Advisor. She has had experience on an IT project as a Business Analyst rolling out a new time sheeting and project management tool ('out-of-the box' with customisations).  ]
-            div class = 'pb' [text/html+md
+                div class = 'pb' [text/html+md
 ## [Phi Bui](https://fi-boo.github.io/Intro_to_IT_ASS-1/)
 Phi Bui (S2008156) was born in Vietnam and immigrated to Australia at the age of 2 where his family settled in Richmond, Victoria. 
 
 Graduating from St. Kevin’s college Toorak in 1999, he would go on to study a Bachelor of Engineering for a year before dropping out and entering the work force. Through his various interactions with IT technologies and personnel in the workplace, his growing interest in IT would lead him to eventually return to tertiary studies. Currently he is enrolled in a Bachelor of IT at RMIT through Open University. 
 
 When not PC gaming or ‘googling’, he enjoys spending time fishing and camping with his children.]
-            div class = 'js' [text/html+md
+                div class = 'js' [text/html+md
 ## [Jacob Schneider](https://j-cake.github.io/iit-website/)
 Jake (s3954363) is a proud self-pronounced nerd. He spends most of his time toying and tinkering with math, physics and computers, and has an especially keen interest in the latter, specifically operating systems, compilers and neural computation. Having graduated high school, the year before, he is eager to get his life started with a Bachelor of Computer Science at the University of Tübingen, in south-western Germany - his hometown.  
 
 Since he was little, Jake has always been extremely passionate about computers and started his programming journey early on – grade 5 early and has loved learning since.]
-            div class = 'cp' [text/html+md
+                div class = 'cp' [text/html+md
 ## [Clayton Phillips](https://gigiphiliac.github.io/ePortfolio/)
 Clayton Phillips (s3952384) was born in Dubbo, NSW and went through high school in Bega, NSW where he graduated in 2021. He enjoys spending his spare time playing sports and various competitive online games. Coming from a technology savvy family, he quickly gained interest in all computer-related things. But it was during school and the time spent outside of it that he eventually found programming to be his favourite of them all. Clayton's IT experience understandably is not extensive. Although, he has done an AWS Cloud Practitioner Certification through schoolwork experience. ]
-            div class = 'njl' [text/html+md
+                div class = 'njl' [text/html+md
 ## [Nuulaiti Junior Lale](https://mynamejunior.github.io/Assessment1/index.html)
 Nuulaiti (S3940026) recently graduated from High School in 2022, working throughout 2021. His parents moved to Australia back in 1998 from Samoa after his eldest brother's 2nd birthday. Nuulaiti used to do sports like rugby and Muay Thai as a form of staying in shape. He’s currently undertaking this study online for its convenience in time flexibility. Nuulaiti’s interest in IT first sparked after he bought a pc, messing around with different parts, trying to troubleshoot issues that appeared here and there. In general, he was always interested in how things worked. Nuulaiti has little to no IT experience, other than the foundation he is currently building while undertaking this course. This includes HTML and CSS, all of which are being used within VScode. ]
-            div class = 'td' [text/html+md
+                div class = 'td' [text/html+md
 ## [Taleb Dib](https://tdibbo.github.io/2k22---RMIT-Taleb-Dib-s3543762/)
 Taleb Dib (s3543762) was born in Melbourne Australia with a middle eastern mixed background which is Lebanese/Syrian. Taleb had acquired his Certificate IV in IT and acquired full-time work, achieving this feat allowed him to successfully acquire a house. His hobbies include Soccer, AFL, Gaming & Partying. Taleb is interested in IT as he currently works full-time in a Level 1 Help Desk position, which has motivated him to seek further into the industry he works in.  ]
-            div class = 'extra' []
-            []
-        }
-
-        div id = 'test-results' class = 'tab' data-heading = 'Test Results' {
-
-            div class = 'info' {
-                span [16personalities]
-                span [Learning Styles]
-                span [Own Choice]
-                span [Team Impact]
+                div class = 'extra' []
                 []
             }
 
-            div class = 'sh' {
-                div class = '_16personalities' [text/html+md
+            div id = 'test-results' class = 'tab' data-heading = 'Test Results' {
+
+                div class = 'info' {
+                    span [16personalities]
+                    span [Learning Styles]
+                    span [Own Choice]
+                    span [Team Impact]
+                    []
+                }
+
+                div class = 'sh' {
+                    div class = '_16personalities' [text/html+md
 ## [INFJ-A](https://www.16personalities.com/infj-personality)
 
 > An Advocate (INFJ) is someone with the Introverted, Intuitive, Feeling, and Judging personality traits. They tend to approach life with deep thoughtfulness and imagination. Their inner vision, personal values, and a quiet, principled version of humanism guide them in all things. 
@@ -90,15 +94,15 @@ Taleb Dib (s3543762) was born in Melbourne Australia with a middle eastern mixed
 ## [Auditory](http://www.educationplanner.org/students/self-assessments/learning-styles-styles.shtml)]
                 div class = 'own' [text/html+md 
 ## Leadership Style Quiz
-[Democratic](https://www.mindtools.com/pages/article/leadership-style-quiz.htm)]
+[Democratic](https://www.mindtools.com/docs/article/leadership-style-quiz.htm)]
                 div class = 'impact' [text/html+md 
 * INFJs greatest strengths as a colleague is to defuse conflicts and tension before anyone else even senses as disturbance. INFJs are also creative and like to help people reach their goals.  
-* As an auditory learner, Stephanie needs to read things out loud. This may be helpful for the group as she is taking the minutes, and this will ensure the group is on the same page when actions are allocated. 
+* As an auditory learner, Stephanie needs to read things out loud. This may be helpful for the group as she is taking the minutes, and this will ensure the group is on the same doc when actions are allocated. 
 * Being a democratic leader indicates that Stephanie leans on collaboration to find solutions & complete work, which is helpful for teamwork.]
-                []
-            }
-            div class = 'pb' {
-                div class = '_16personalities' [text/html+md
+                    []
+                }
+                div class = 'pb' {
+                    div class = '_16personalities' [text/html+md
 ## [ISTP-A](https://www.16personalities.com/profiles/8e5ef15d58075)
 
 > A Virtuoso (ISTP) is someone with the Introverted, Observant, Thinking, and Prospecting personality traits. They tend to have an individualistic mindset, pursuing goals without needing much external connection. They engage in life with inquisitiveness and personal skill, varying their approach as needed. 
@@ -114,10 +118,10 @@ Taleb Dib (s3543762) was born in Melbourne Australia with a middle eastern mixed
 * Kinesthetic  learns through doing. A key characteristic of Kinesthetic learners is they favour participation in activities and tasks over watching. 
 * Executives are efficient, practical and systematic and eager to get the job done. 
 * The test results would indicate that Phi would play a very proactive role in the team. His eagerness to voice ideas and suggestions can keep the group progressing forward in the tasks at hand.]
-                []
-            }
-            div class = 'js' {
-                div class = '_16personalities' [text/html+md
+                    []
+                }
+                div class = 'js' {
+                    div class = '_16personalities' [text/html+md
 ## [IST-T](https://www.16personalities.com/profiles/f6bad9258d987)
 
 > A Virtuoso (ISTP) is someone with the Introverted, Observant, Thinking, and Prospecting personality traits. They tend to have an individualistic mindset, pursuing goals without needing much external connection. They engage in life with inquisitiveness and personal skill, varying their approach as needed. 
@@ -132,10 +136,10 @@ Taleb Dib (s3543762) was born in Melbourne Australia with a middle eastern mixed
 * A turbulent virtuoso excels with tangible concepts. Visualising and describing mechanical problems with high precision. They will be able to guide others through challenging or complex concepts very efficiently 
 * Kinaesthetic learners are those who have a strong intuition for physical systems, and can often provide alternative perspectives on certain concepts by exploring and tinkering. 
 * Less creative often comes strongly detail-oriented, obsessive behaviours which would aid a team in producing a very polished and final project.]
-                []
-            }
-            div class = 'cp' {
-                div class = '_16personalities' [text/html+md
+                    []
+                }
+                div class = 'cp' {
+                    div class = '_16personalities' [text/html+md
 ## [ISFP-T](https://www.16personalities.com/profiles/1a154c92a46c5)
 
 > A Virtuoso (ISTP) is someone with the Introverted, Observant, Thinking, and Prospecting personality traits. They tend to have an individualistic mindset, pursuing goals without needing much external connection. They engage in life with inquisitiveness and personal skill, varying their approach as needed. 
@@ -150,10 +154,10 @@ Taleb Dib (s3543762) was born in Melbourne Australia with a middle eastern mixed
 * Turbulent adventurers (ISFP-T) are known to possess the team oriented trait of sensitivity to others; relate to them, establish harmony and minimise conflict. Other traits include artistic, curious and imaginative. ISFP-Ts can show their creativity through tangible means, when interested in a topic they'll explore thoroughly on their own, and like to come up with bold ideas that appeal to others. 
 * Visual learners are best able to learn through words, illustrations, diagrams, videos and the like. In a team setting, it's useful to have someone that easily comprehends charts, graphs, diagrams, etc, and can pick up on small visual details the others might have missed. 
 * Kinaesthetic learners best engage with information hands on. In a team environment, this may be recognised due to a need for rigorous experimentation on some code, for example.]
-                []
-            }
-            div class = 'njl' {
-                div class = '_16personalities' [text/html+md
+                    []
+                }
+                div class = 'njl' {
+                    div class = '_16personalities' [text/html+md
 ## [ENFJ-?](https://www.16personalities.com/enfj-personality)
 
 > A Protagonist (ENFJ) is a person with the Extraverted, Intuitive, Feeling, and Judging personality traits. These warm, forthright types love helping others, and they tend to have strong ideas and values. They back their perspective with  the creative energy to achieve their goals. 
@@ -168,10 +172,10 @@ Taleb Dib (s3543762) was born in Melbourne Australia with a middle eastern mixed
 * As a protagonist (ENFJ-T) helping others where help within reasonable capability can be provided is without a thought, this could be contributing a little on the website, doing some extra research, or even providing some ideas.  
 * This also ties in with creativity. This aspect allows the group to filter and solve problems more blatantly and with innovation. Moreover, searching for effective and efficient solutions for each problem. 
 * Being a visual learner, associating ideas, words and concepts with images assists in better understanding and retaining information. Having multiple different learning styles allows the team to perceive and think in a different perspective.]
-                []
-            }
-            div class = 'td' {
-                div class = '_16personalities' [text/html+md
+                    []
+                }
+                div class = 'td' {
+                    div class = '_16personalities' [text/html+md
 ## [INFJ-A](https://www.16personalities.com/infj-personality)
 
 > An Advocate (INFJ) is someone with the Introverted, Intuitive, Feeling, and Judging personality traits. They tend to approach life with deep thoughtfulness and imagination. Their inner vision, personal values, and a quiet, principled version of humanism guide them in all things. 
@@ -185,30 +189,30 @@ Taleb Dib (s3543762) was born in Melbourne Australia with a middle eastern mixed
                 div class = 'impact' [text/html+md 
 * INFJ is a breakdown of; Introversion, Intuition, Feeling and Judging. Also known as 'The Confidant', a very complex personality trait. Their personal growth is their main source of driving energy rather than shot bursts of pursuits, they are very proud and hold their heads high in their own beliefs. As INFJ's direct their energy inwards, they are energised by spending time alone and having a few close friends as they are highly intuitive and deep thinkers. 
 * Taleb scored a Creativity score of 56.13, which is below the standard average of users (62.86), though as shown in the diagram, Taleb does express Abstraction and Persistence as his two top qualities and does express them strongly.]
-                []
-            }
-            div class = 'extra' []
-            []
-        }
-
-        div id = 'it-jobs' class = 'tab' data-heading = 'IT Jobs' {
-
-            div class = 'info' {
-                span [Link to Burning Glass]
-                span [Demand from employers]
-                span [Key Requirements]
-                span [How do the IT-specific skills set rank in terms of demand?]
-                span [How do the general skills rank in terms of demand?]
-                span [Three highest ranked IT-specific skills which are not in your required skill set?]
-                span [Highest ranked general skills which are not in your required skill set?]
-                span [Has your opinion changed?]
+                    []
+                }
+                div class = 'extra' []
                 []
             }
 
-            div class = 'sh' {
-                div class = 'col-1' [There's no job title from the Burning Glass data that is Project related, assuming the Information Technology Filter applied excludes Project only roles.]
-                div class = 'col-2' [No Program Manager Titles Listed]
-                div class = 'col-3' [text/html+md
+            div id = 'it-jobs' class = 'tab' data-heading = 'IT Jobs' {
+
+                div class = 'info' {
+                    span [Link to Burning Glass]
+                    span [Demand from employers]
+                    span [Key Requirements]
+                    span [How do the IT-specific skills set rank in terms of demand?]
+                    span [How do the general skills rank in terms of demand?]
+                    span [Three highest ranked IT-specific skills which are not in your required skill set?]
+                    span [Highest ranked general skills which are not in your required skill set?]
+                    span [Has your opinion changed?]
+                    []
+                }
+
+                div class = 'sh' {
+                    div class = 'col-1' [There's no job title from the Burning Glass data that is Project related, assuming the Information Technology Filter applied excludes Project only roles.]
+                    div class = 'col-2' [No Program Manager Titles Listed]
+                    div class = 'col-3' [text/html+md
 * Stakeholder Management
 * Team Leadership
 * Time Management
@@ -226,13 +230,13 @@ Taleb Dib (s3543762) was born in Melbourne Australia with a middle eastern mixed
 * Writing 
 * Trouble-shooting 
 * Detail-Oriented]
-                div class = 'col-8' [No]
-                []
-            }
-            div class = 'pb' {
-                div class = 'col-1' [17&#x1D57;&#x02B0; in the 'Top IT job titles' Burning Glass list.]
-                div class = 'col-2' [2,308 job opportunities on Seek.com.au as of 27/03/2022]
-                div class = 'col-3' [text/html+md 
+                    div class = 'col-8' [No]
+                    []
+                }
+                div class = 'pb' {
+                    div class = 'col-1' [17&#x1D57;&#x02B0; in the 'Top IT job titles' Burning Glass list.]
+                    div class = 'col-2' [2,308 job opportunities on Seek.com.au as of 27/03/2022]
+                    div class = 'col-3' [text/html+md 
 * JavaScript Programming 
 * Angular 
 * C# Programming 
@@ -255,13 +259,13 @@ Taleb Dib (s3543762) was born in Melbourne Australia with a middle eastern mixed
 * Writing 
 * Planning 
 * Creativity]
-                div class = 'col-8' [No]
-                []
-            }
-            div class = 'js' {
-                div class = 'col-1' [Software Developer is listed, highest in demand when grouping occupations.]
-                div class = 'col-2' [337 listings for Software Developer. When grouping Occupations, it is highest in demand with 29,456 listings.]
-                div class = 'col-3' [text/html+md
+                    div class = 'col-8' [No]
+                    []
+                }
+                div class = 'js' {
+                    div class = 'col-1' [Software Developer is listed, highest in demand when grouping occupations.]
+                    div class = 'col-2' [337 listings for Software Developer. When grouping Occupations, it is highest in demand with 29,456 listings.]
+                    div class = 'col-3' [text/html+md
 * C# Programming 
 * JavaScript 
 * Angular 
@@ -272,26 +276,26 @@ Taleb Dib (s3543762) was born in Melbourne Australia with a middle eastern mixed
 * TypeScript 
 * Git Version Control System 
 * HTML]
-                div class = 'col-4' [text/html+md
+                    div class = 'col-4' [text/html+md
 * SQL, JavaScript & Java are the top 3 IT skills listed]
-                div class = 'col-5' [text/html+md
+                    div class = 'col-5' [text/html+md
 * Analytical skills rank lower on the list. However there's still 2,997 listings]
-                div class = 'col-6' [text/html+md
+                    div class = 'col-6' [text/html+md
 * Microsoft Windows 
 * Project Management 
 * SAP]
-                div class = 'col-7' [text/html+md
+                    div class = 'col-7' [text/html+md
 * Communication Skills 
 * Problem Solving 
 * Organisational Skills]
-                div class = 'col-8' [No]
-                []
-            }
-            div class = 'cp' {
-                div class = 'col-1' [DevOps Engineer is not listed on Burning Glass]
-                div class = 'col-2' [3706 job listings on seek.com.au under the search term "DevOps Engineer"]
-                div class = 'col-3' [text/html+md
-* LINUX 
+                    div class = 'col-8' [No]
+                    []
+                }
+                div class = 'cp' {
+                    div class = 'col-1' [DevOps Engineer is not listed on Burning Glass]
+                    div class = 'col-2' [3706 job listings on seek.com.au under the search term "DevOps Engineer"]
+                    div class = 'col-3' [text/html+md
+* Linux 
 * Ansible 
 * Cloud platform (AWS/Azure) 
 * Python/NodeJS/Bash 
@@ -300,25 +304,25 @@ Taleb Dib (s3543762) was born in Melbourne Australia with a middle eastern mixed
 * Continuous Integration tools 
 * DevSecOps tools 
 * Monitoring tools]
-                div class = 'col-4' [text/html+md
-* LINUX, Git and Python are generally toward the lower half on Burning Glass' demand graph.]
-                div class = 'col-5' [text/html+md
+                    div class = 'col-4' [text/html+md
+* Linux, Git and Python are generally toward the lower half on Burning Glass' demand graph.]
+                    div class = 'col-5' [text/html+md
 * Collaboration - 5th]
-                div class = 'col-6' [text/html+md
+                    div class = 'col-6' [text/html+md
 * SQL 
 * Javascript 
 * Java]
-                div class = 'col-7' [text/html+md
+                    div class = 'col-7' [text/html+md
 * Communication Skills 
 * Problem Solving 
 * Organisational Skills]
-                div class = 'col-8' [No]
-                []
-            }
-            div class = 'njl' {
-                div class = 'col-1' [Technical Support Specialist is not listed within Burning Glass]
-                div class = 'col-2' [Job title is not listed]
-                div class = 'col-3' [text/html+md
+                    div class = 'col-8' [No]
+                    []
+                }
+                div class = 'njl' {
+                    div class = 'col-1' [Technical Support Specialist is not listed within Burning Glass]
+                    div class = 'col-2' [Job title is not listed]
+                    div class = 'col-3' [text/html+md
 * Information Technology 
 * Microsoft Azure 
 * Python Programming 
@@ -328,27 +332,27 @@ Taleb Dib (s3543762) was born in Melbourne Australia with a middle eastern mixed
 * Technical Aptitude 
 * Technical Support 
 * Teamwork]
-                div class = 'col-4' [text/html+md
+                    div class = 'col-4' [text/html+md
 * Technical Support 
 * Python 
 * These are the top 3 skills ranked in terms of demand]
-                div class = 'col-5' [text/html+md
+                    div class = 'col-5' [text/html+md
 * Team work is ranked 5th in generic skills list]
-                div class = 'col-6' [text/html+md
+                    div class = 'col-6' [text/html+md
 * Microsoft windows 
 * JavaScript 
 * Java]
-                div class = 'col-7' [text/html+md
+                    div class = 'col-7' [text/html+md
 * Communication Skills 
 * Problem solving 
 * Organisational Skills]
-                div class = 'col-8' [No]
-                []
-            }
-            div class = 'td' {
-                div class = 'col-1' [There are no jobs.]
-                div class = 'col-2' [1,971 Job opportunities on seek as of 28/03/2022]
-                div class = 'col-3' [text/html+md 
+                    div class = 'col-8' [No]
+                    []
+                }
+                div class = 'td' {
+                    div class = 'col-1' [There are no jobs.]
+                    div class = 'col-2' [1,971 Job opportunities on seek as of 28/03/2022]
+                    div class = 'col-3' [text/html+md 
 * JavaScript Programming 
 * Java Programming 
 * API 
@@ -358,33 +362,34 @@ Taleb Dib (s3543762) was born in Melbourne Australia with a middle eastern mixed
 * Node.JS 
 * Microsoft Azure 
 * C # Programming]
-                div class = 'col-4' [text/html+md
+                    div class = 'col-4' [text/html+md
 * Java Script, Java Programming & API]
-                div class = 'col-5' [text/html+md
+                    div class = 'col-5' [text/html+md
 * Leadership Communication (Support and guidance)]
-                div class = 'col-6' [text/html+md
+                    div class = 'col-6' [text/html+md
 * API 
 * Javascript Programming/Java Programming 
 * C# Programming]
-                div class = 'col-7' [text/html+md
+                    div class = 'col-7' [text/html+md
 * Multitasking 
 * Technical Skills]
-                div class = 'col-8' [No]
+                    div class = 'col-8' [No]
+                    []
+                }
+                div class = 'extra' {
+                    article {
+                        $include file = 'doc/it-jobs.md' content_type = 'text/html+md';
+                    }
+                }
                 []
             }
-            div class = 'extra' {
-                article {
-                    $include file = 'page/it-jobs.md' content_type = 'text/html+md';
-                }
-            }
-            []
+
         }
 
+        a href = '/team-mobile.html' id = 'mobile-btn' {
+            button [View Mobile]
+            []
+        }
+        script src = '/assets/src/grid-mgr.js' defer = 'true' []
     }
-
-    a href = '/team-mobile.html' id = 'mobile-btn' {
-        button [View Mobile]
-        []
-    }
-    script src = '/assets/src/grid-mgr.js' defer = 'true' []
 }

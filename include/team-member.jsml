@@ -1,3 +1,3 @@
 div id = '${member}' class = 'tab' data-heading = '${member.split("-").join(" ")}' {
-    $include file = 'page/team/${member}.md' content_type = 'text/html+md';
+    $includm file = 'doc/team/${member}.md' content_type = 'text/html+md';
 }

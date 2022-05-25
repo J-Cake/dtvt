@@ -6,7 +6,9 @@ html lang = 'en' {
         meta charset = 'utf-8';
         meta name = 'viewport' content = 'width=device-width, initial-scale=1';
 
-        title (page_title)
+        [text/js+node title = ''; try { title = doc_title; } catch (e) { title = path; }; glob('title', title)]
+
+        title (title)
 
         link rel = 'stylesheet' href = '/assets/css/master.css';
         link rel = 'stylesheet' href = '/assets/css/layout.css';
@@ -18,7 +20,7 @@ html lang = 'en' {
         $include file = 'include/nav.jsml';
 
         section id = 'main-grid' {
-            $include file = '${content}' content-type = '${content_type}';
+            [text/js+node yield* content;]
         }
 
         $include file = 'include/footer.jsml';

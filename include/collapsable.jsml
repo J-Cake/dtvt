@@ -6,7 +6,7 @@ div class = 'collapsable' {
     }
 
     article class = 'collapsable-content' {
-        $include file = '${open}' content_type = '${_content_type ?? "text/jsml"}';
+        [text/js+node yield* body]
     }
 
     style [text/css

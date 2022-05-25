@@ -3,7 +3,7 @@ div id = 'footer' class = 'horizontal left darken' {
     div class = 'stack' {
         h4 [About]
         a href = 'https://github.com/J-Cake/jstempl' [Made with JSTempl]
-        a href = '/assets/res/outline/pdf' [Built in accordance with Assessment 2]
+        a href = '/assets/res/outline.pdf' [Built in accordance with Assessment 2]
     }
     
     div class = 'stack' {
@@ -11,18 +11,18 @@ div id = 'footer' class = 'horizontal left darken' {
         a href = 'https://github.com/J-Cake/do-the-thing-website' [GitHub Repo]
         a href = 'https://teams.microsoft.com/l/team/19%3amk6rC3AwdO-AoyLm5S0epy8SEedyT-PQcXqlSxzaYwI1%40thread.tacv2/conversations?groupId=4dbf9e01-501e-490c-bc0b-e649d7cfa36d&tenantId=d1323671-cdbe-4417-b4d4-bdb24b51316b' [MS Teams Group]
         a href = 'https://discord.com/channels/948424449370255361/948425177585287239' [Discord Group]
-        a href = '/references.html' [References]
+        a href = '/references.md' [References]
         []
     }
     div class = 'stack' {
         h4 [Resources]
-        a href = '/interview/transcript.html' [Interview Transcript]
+        a href = '/interview-transcript.md' [Interview Transcript]
         a href = 'https://rmiteduau-my.sharepoint.com/:v:/g/personal/s3952390_student_rmit_edu_au/EdDWTrWL8upItqhO04uVBSkBSr3-4Mo1v4HfdL0Jv0W35A?e=cfKDzA&isSPOFile=1' target = '_blank' [Interview Recording]
     }
     div class = 'stack' {
         h4 [Meetings]
 
-        a href = '/meetings.html' [Agendas and Actions]
+        a href = '/meetings.md' [Agendas and Actions]
         
         h6 [Recordings]
 

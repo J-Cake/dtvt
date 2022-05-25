@@ -1,0 +1,20 @@
+[<!DOCTYPE md>]
+
+$use template = 'template.jsml' {
+    div id = 'content' {
+        article {
+            [text/js+node yield md;]
+        }
+
+        style [text/css
+            article table td:first-child {
+                font-weight: bold;
+                text-align: center;
+            }
+            article table td:not(:first-child) {
+                text-align: justify !important;
+                font-size: 0.9em;
+            }
+        ]
+    }
+}

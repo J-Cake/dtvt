@@ -3,7 +3,7 @@
 Alex Krummer, a Solutions Architect that works within Cyber Security at Suncorp was interviewed by Jacob and Stephanie on 4th April via Microsoft teams in order to understand what daily work looks like for an IT Professional. The Interview was recorded and saved in Microsoft Teams: IT Professional – Interview. 
 
 <div>
-    <a href="/interview/transcript.html"><button>View Transcript</button></a>
+    <a href="/interview-transcript.md"><button>View Transcript</button></a>
     <a href="https://rmiteduau-my.sharepoint.com/:v:/g/personal/s3952390_student_rmit_edu_au/EdDWTrWL8upItqhO04uVBSkBSr3-4Mo1v4HfdL0Jv0W35A?e=cfKDzA&isSPOFile=1" target="_blank"><button>View Recording</button></a>
 </div>
 

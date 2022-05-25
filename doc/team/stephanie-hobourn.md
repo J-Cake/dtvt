@@ -9,10 +9,10 @@
 [Auditory](http://www.educationplanner.org/students/self-assessments/learning-styles-styles.shtml)
 
 ### Leadership Style Quiz
-[Democratic](https://www.mindtools.com/pages/article/leadership-style-quiz.htm)
+[Democratic](https://www.mindtools.com/docs/article/leadership-style-quiz.htm)
 
 ### Impact
 
 * INFJs greatest strengths as a colleague is to defuse conflicts and tension before anyone else even senses as disturbance. INFJs are also creative and like to help people reach their goals.  
-* As an auditory learner, Stephanie needs to read things out loud. This may be helpful for the group as she is taking the minutes, and this will ensure the group is on the same page when actions are allocated. 
+* As an auditory learner, Stephanie needs to read things out loud. This may be helpful for the group as she is taking the minutes, and this will ensure the group is on the same doc when actions are allocated. 
 * Being a democratic leader indicates that Stephanie leans on collaboration to find solutions & complete work, which is helpful for teamwork.

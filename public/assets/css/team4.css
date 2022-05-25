@@ -23,7 +23,7 @@ body {
 }
 
 #top-left:after {
-    /* content: 'Note: This page uses features which are not supported by your browser. Firefox is the best choice.'; */
+    /* content: 'Note: This doc uses features which are not supported by your browser. Firefox is the best choice.'; */
     content: 'Doin\' the thing.';
     font-size: 8pt;
     font-weight: 400;

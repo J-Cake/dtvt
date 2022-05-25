@@ -1,0 +1,17 @@
+[<!DOCTYPE html>]
+
+$use template = 'template.jsml' {
+    section id = 'content' {
+
+        h1 (doc_title)
+
+        article {
+            $include file = '${tech}' content_type = 'text/html+md';
+            
+            p class = 'author' {
+                sub ("By " + author)
+            }
+        }
+
+    }
+}

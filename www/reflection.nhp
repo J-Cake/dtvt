@@ -1,0 +1,35 @@
+[<!DOCTYPE html>]
+
+$use template = 'template.jsml' doc_title = 'Reflection' {
+
+    article id = 'content' {
+        $include file = 'doc/team/reflection/group.md' content_type = 'text/html+md';
+
+        h1 [Check out the reflections from each of our team members]
+
+        $use template = 'include/collapsable.jsml' heading = 'Stephanie' {
+            $md file = 'doc/team/reflection/stephanie-hobourn.md';
+        }
+
+        $use template = 'include/collapsable.jsml' heading = 'Phi' {
+            $md file = 'doc/team/reflection/phi-bui.md';
+        }
+
+        $use template = 'include/collapsable.jsml' heading = 'Jacob' {
+            $md file = 'doc/team/reflection/jacob-schneider.md';
+        }
+
+        $use template = 'include/collapsable.jsml' heading = 'Clayton' {
+            $md file = 'doc/team/reflection/clayton-phillips.md';
+        }
+
+        $use template = 'include/collapsable.jsml' heading = 'Junior' {
+            $md file = 'doc/team/reflection/nuulaiti-junior-lale.md';
+        }
+
+        $use template = 'include/collapsable.jsml' heading = 'Taleb' {
+            $md file = 'doc/team/reflection/taleb-dib.md';
+        }
+    }
+
+}

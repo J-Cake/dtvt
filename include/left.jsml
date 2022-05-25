@@ -1,6 +1,6 @@
 div id = 'content' {
     article id = 'article' {
-        $include file = '${page}' content_type = 'text/html+md';
+        $include file = '${doc}' content_type = 'text/html+md';
     }
 
     style [text/css

@@ -1,17 +1,17 @@
 header {
     nav class = 'horizontal' {
         a href = '/' [Home]
-        a href = '/team.html' [Team]
-        a href = '/interview/summary.html' [Interview]
+        a href = '/team.nhp' [Team]
+        a href = '/interview.md' [Interview]
     
         div class = 'dropdown' {
             label [Technologies]
 
             ul class = 'dropdown-content' {
-                a href = '/technologies/cybersecurity.html' [Cybersecurity]
-                a href = '/technologies/chatbots.html' [Chatbots]
-                a href = '/technologies/raspberry-pi-and-arduino.html' [Raspberry Pi and Arduino]
-                a href = '/technologies/robots.html' [Robots]
+                a href = '/technologies/cybersecurity.md' [Cybersecurity]
+                a href = '/technologies/chatbots.md' [Chatbots]
+                a href = '/technologies/raspberry-pi-and-arduino.md' [Raspberry Pi and Arduino]
+                a href = '/technologies/robots.md' [Robots]
                 
                 []
             }
@@ -21,17 +21,27 @@ header {
             label [IT Project]
 
             ul class = 'dropdown-content' {
-                a href = '/project/overview.html' [Overview]
-                a href = '/project/description.html' [Description]
-                a href = '/project/tools-and-technologies.html' [Tools and Technologies]
-                a href = '/project/skills.html' [Skills]
-                a href = '/project/outcome.html' [Outcome]
+                a href = '/project/overview.md' [Overview]
+                a href = '/project/description.md' [Description]
+                a href = '/project/tools-and-technologies.md' [Tools and Technologies]
+                a href = '/project/skills.md' [Skills]
+                a href = '/project/outcome.md' [Outcome]
 
                 []
             }
         }
 
-        a href = '/reflection.html' [Reflection]
+        div class = 'dropdown' {
+            label [Do-the-Vegan-Thing]
+
+            ul class = 'dropdown-content' {
+                a href = '/vegan/' [Project]
+
+                []
+            }
+        }
+
+        a href = '/reflection.nhp' [Reflection]
         []
     }
 
