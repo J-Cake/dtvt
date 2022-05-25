@@ -1,3 +1,3 @@
 # Do-the-Vegan-Thing
 
-... Some shit to go here
+fr bro. you gotta do this
