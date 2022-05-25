@@ -2,6 +2,7 @@ div id = 'footer' class = 'horizontal left darken' {
 
     div class = 'stack' {
         h4 [About]
+        a href = 'https://dothething.jschneiderprojects.com.au' [Do-the-thing Website]
         a href = 'https://github.com/J-Cake/jstempl' [Made with JSTempl]
         a href = '/assets/res/outline.pdf' [Built in accordance with Assessment 2]
     }
