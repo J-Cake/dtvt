@@ -20,13 +20,26 @@ style [text/css
 section {
     [text/js+node
         const cp = await require('node:child_process');
+        const {default: chalk} = await require('chalk');
         const iter = await require('jcake-utils/iter');
 
-        console.log(body);
+        console.log(`[UpdateClient] - ${chalk.yellow(new Date().toISOString())} - Checking for updates`)
 
         const child = cp.spawn('git', ['pull']);
 
+        let code = new Promise(ok => child.once('exit', code => ok(code)));
+
         for await (const i of iter.interleave(child.stdout, child.stderr))
             yield `<pre>${i.toString()}</pre>`;
+
+        code = await code;
+        yield `<pre>Exited with code: ${code}</pre>`;
+
+        if (code != 0)
+            console.error(`[UpdateClient] - ${chalk.red(new Date().toISOString())} - Update failed - exited with code ${code}`);
+        else
+            console.log(`[UpdateClient] - ${chalk.green(new Date().toISOString())} - Update succeeded`);
+
+        console.log(`[UpdateClient] - ${chalk.yellow(new Date().toISOString())} - Update complete`);
     ]
 }
