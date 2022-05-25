@@ -6,7 +6,7 @@ div class = 'collapsable' {
     }
 
     article class = 'collapsable-content' {
-        [text/js+node yield* body]
+        [text/js+node yield* content;]
     }
 
     style [text/css

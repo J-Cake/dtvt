@@ -1,7 +1,0 @@
-lockfileVersion: 5.4
-
-specifiers:
-  jstempl: github:J-Cake/jstempl#v1.1.0
-
-dependencies:
-  jstempl: link:node_modules/jstempl

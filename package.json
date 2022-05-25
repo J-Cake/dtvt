@@ -1,6 +1,3 @@
 {
-    "name": "dtvt",
-    "devDependencies": {
-        "jstempl": "github:J-Cake/jstempl#v1.1.0"
-    }
+    "name": "dtvt"
 }

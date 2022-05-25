@@ -386,7 +386,7 @@ Taleb Dib (s3543762) was born in Melbourne Australia with a middle eastern mixed
 
         }
 
-        a href = '/team-mobile.html' id = 'mobile-btn' {
+        a href = '/team-mobile.nhp' id = 'mobile-btn' {
             button [View Mobile]
             []
         }
