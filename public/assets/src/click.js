@@ -31,8 +31,10 @@ sound.addEventListener('canplaythrough', function () {
             waduhek.play();
         else if (getClosest(el, ['jacob', 'jake', 'js']))
             michaelrosen.play();
-        else
+        else if (getClosest(el, ['junior', 'nuulaiti', 'lale', 'njl']))
             sound.play();
 
     });
+
+    
 });

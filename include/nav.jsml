@@ -36,6 +36,7 @@ header {
 
             ul class = 'dropdown-content' {
                 a href = '/vegan/' [Project]
+                a href = '/vegan/prototypes.md' [Prototype]
 
                 []
             }
