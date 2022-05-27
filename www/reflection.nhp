@@ -3,6 +3,8 @@
 $use template = 'template.jsml' doc_title = 'Reflection' {
 
     article id = 'content' {
+        h1 [Assessment 2 - Reflection]
+
         $include file = 'doc/team/reflection/group.md' content_type = 'text/html+md';
 
         h1 [Check out the reflections from each of our team members]
@@ -30,6 +32,10 @@ $use template = 'template.jsml' doc_title = 'Reflection' {
         $use template = 'include/collapsable.jsml' heading = 'Taleb' {
             $md file = 'doc/team/reflection/taleb-dib.md';
         }
-    }
 
+        h1 [Assessment 3 - Reflection]
+
+        $md file = 'doc/team/reflection/assessment-3.md';
+
+    }
 }

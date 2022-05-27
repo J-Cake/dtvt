@@ -1,7 +1,7 @@
-window.addEventListener('load', async function () {
+export default async function init() {
 
     const preview = document.querySelector('#preview');
-    const video = document.querySelector('#preview ~ video');
+    const video = document.querySelector('#stream');
 
     if (!preview || !video || !navigator.mediaDevices || !navigator.mediaDevices.getUserMedia)
         return;
@@ -16,7 +16,7 @@ window.addEventListener('load', async function () {
     video.srcObject = stream;
 
     let model;
-    cocoSsd.load().then(mod => model = mod);
+    cocoSsd.load().then(mod => model = mod).then(res => console.log('model loaded'));
 
     video.addEventListener('loadeddata', async function () {
         preview.width = video.videoWidth;
@@ -41,4 +41,5 @@ window.addEventListener('load', async function () {
             await new Promise(resolve => requestAnimationFrame(resolve));
         }
     });
-});
+
+}

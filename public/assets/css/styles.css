@@ -94,3 +94,7 @@ button:hover {
 button:hover * {
     color: var(--foreground);
 }
+
+a.hr {
+    padding: 0 0.5em;
+}

@@ -1,0 +1,76 @@
+$use template = 'template.jsml' {
+    section id = 'content' {
+        [text/html+md # Prototypes
+
+The _Do-the-vegan-thing_ app uses various technologies to provide a simple, easy-to-use interface for the user to classifying ingredients. Over the course of its development, several prototypes were developed, either simply for demonstration, or to test various concepts.
+
+## Image Classification with Tensorflow.js
+
+As discussed in great detail in the [_tools and technologies_](/project/tools-and-technologies.md) section, Tensorflow.js is a JavaScript library for high-performance _tensor_ operations, which can subsequently be used to implement neural networks, hence image classification systems. This was the approach used to produce the [image classification example](/demos/classifier.nhp).]
+
+        button id = 'view-classifier-demo' [View Demo]
+
+        [text/html+md ## Reading Barcodes
+
+Again, eloquently discussed by Phi, [barcodes](/404.md) are a complex subject, particularly in the realm of parsing them. For this reason, a pretrained Tensorflow model was used, and integrated through a library called [Quagga.js](https://serratus.github.io/quaggaJS) which is responsible for managing the tensorflow model and parsing the resultant data.]
+
+        button id = 'view-barcode-demo' [View Demo]
+
+        script type = 'module' [text/javascript
+            document.querySelector('#view-classifier-demo').addEventListener('click', async function() {
+                const container = document.createElement('section');
+
+                container.innerHTML = `
+                    <section id="preview-container">
+                        <video autoplay muted id="stream"></video>
+                        <canvas id="preview"></canvas>
+                    </section>
+                    <style>
+                        #preview-container { position: relative; }
+                        #preview { z-index: 1; position: absolute; top: 0; left: 0;  }
+                        #stream { z-index: 0; }
+                    </style>
+                `;
+
+                this.replaceWith(container);
+
+                await import('https://cdn.jsdelivr.net/npm/@tensorflow/tfjs/dist/tf.min.js');
+                await import('https://cdn.jsdelivr.net/npm/@tensorflow-models/coco-ssd');
+                const classifier = await import('/assets/src/classifier.js');
+
+                await classifier.default();
+
+            });
+        ]
+        script type = 'module' [text/javascript
+            import * as Quagga from 'https://cdn.jsdelivr.net/npm/@ericblade/quagga2/dist/quagga.min.js';
+            document.querySelector('#view-barcode-demo').addEventListener('click', async function() {
+                const container = document.createElement('section');
+
+                container.innerHTML = `<video id="preview"></video>`;
+
+                if (navigator.mediaDevices && typeof navigator.mediaDevices.getUserMedia === 'function') {
+
+                    console.log(Quagga)
+
+                    Quagga.init({
+                        inputStream: {
+                            name: "Live",
+                            type: "LiveStream",
+                            target: document.querySelector('section#out')
+                        },
+                        decoder: {
+                            readers: [
+                                "ean_reader",
+                                "ean_8_reader",
+                                "upc_reader",
+                                "upc_e_reader",
+                            ]
+                        }
+                    }, () => Quagga.start());
+                } else
+                    alert('Your browser does not support media devices.');
+            });
+        ]
+    }
+}

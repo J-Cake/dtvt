@@ -3,7 +3,7 @@ $use template = 'template.jsml' {
 
         section id = 'preview-container' {
             canvas id = 'preview' []
-            video autoplay = 'true' muted = 'true';
+            video autoplay = 'true' muted = 'true' id = 'stream';
         }
 
         style [text/css
@@ -26,7 +26,11 @@ $use template = 'template.jsml' {
         script src = 'https://cdn.jsdelivr.net/npm/@tensorflow/tfjs/dist/tf.min.js' type = 'text/javascript' []
         script src = 'https://cdn.jsdelivr.net/npm/@tensorflow-models/coco-ssd' []
 
-        script src = '/assets/src/classifier.js' defer = 'true' type = 'module';
+        script type = 'module' [text/javascript await import('/assets/src/classifier.js').then(function ({default: classifier}) {
+            window.addEventListener('load', function () {
+                classifier();
+            });
+        })]
     
     }
 
