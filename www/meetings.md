@@ -1,10 +1,10 @@
-# Meetings
+# Meetings - Assessment 2
 
 ## 24/04/22
 
 | Chair | Attendees | Apologies |
-| --- | --- | --- |
-| Phi | All | N/A |
+| ----- | --------- | --------- |
+| Phi   | All       | N/A       |
 
 ### Agenda: 
 
@@ -59,19 +59,19 @@
 
 - All to vote on Project Idea by 31st March 
 
-| Task                                                         | Allocated to                 | Due Date   | Notes                                                  |
-| ------------------------------------------------------------ | ---------------------------- | ---------- | ------------------------------------------------------ |
-| Team Name                                                    | All                          | 27th March |                                                        |
-| Summary of each personal introduction                        | All                          | 27th March | To review each other                                   |
-| Summary of Test Results                                      | All                          | 27th March | To review each other Review Test Results on 28th April |
-| Ideal Jobs - Table                                           | All                          | 27th March |                                                        |
-| Ideal Jobs - Comparison Paragraphs                           | Steph                        | 3rd April  | Compare everyone's results and answer questions        |
+| Task                                                               | Allocated to                 | Due Date   | Notes                                                  |
+| ------------------------------------------------------------------ | ---------------------------- | ---------- | ------------------------------------------------------ |
+| Team Name                                                          | All                          | 27th March |                                                        |
+| Summary of each personal introduction                              | All                          | 27th March | To review each other                                   |
+| Summary of Test Results                                            | All                          | 27th March | To review each other Review Test Results on 28th April |
+| Ideal Jobs - Table                                                 | All                          | 27th March |                                                        |
+| Ideal Jobs - Comparison Paragraphs                                 | Steph                        | 3rd April  | Compare everyone's results and answer questions        |
 | Poll results for group name IT Work - Interview an IT Professional | Steph & Jacob                | 3rd April  |                                                        |
-| IT Technologies                                              | Nuulati, Taleb, Clayton, Phi | 3rd April  |                                                        |
-| Website                                                      | Jacob                        | 3rd April  |                                                        |
-| MS Teams                                                     | Steph                        | Ongoing    |                                                        |
-| Project Idea                                                 | All                          | 10th April |                                                        |
-| Group Reflection                                             | All                          | 10th April |                                                        |
+| IT Technologies                                                    | Nuulati, Taleb, Clayton, Phi | 3rd April  |                                                        |
+| Website                                                            | Jacob                        | 3rd April  |                                                        |
+| MS Teams                                                           | Steph                        | Ongoing    |                                                        |
+| Project Idea                                                       | All                          | 10th April |                                                        |
+| Group Reflection                                                   | All                          | 10th April |                                                        |
 
 ---
 
@@ -296,3 +296,415 @@
 
 ---
 
+# Assessment 3
+
+## 29/04/2022
+
+| Chair | Attendees | Apologies |
+| ----- | --------- | --------- |
+| Phi   | All       |           |
+
+### Agenda
+
+- Quick informal catch up to run through A3 Brief on Discord 
+
+### Minutes
+
+- Fake news for video? Animated video? 
+- All to read through A3 brief 
+
+### Actions
+
+- Create draft report Steph 
+- Jacob to think about what can realistically be achieved in 10 weeks 
+
+|     | Week       | Activity                                                       |
+| --- | ---------- | -------------------------------------------------------------- |
+| 1   | 2/05/2022  | Review Project Description Scope and Limits Plans and Progress |
+| 2   | 9/05/2022  |                                                                |
+| 3   | 16/05/2022 |                                                                |
+| 4   | 23/05/2022 | Record Presentation & Finalise Report Writing                  |
+| 5   | 30/05/2022 | Submit Assessment (Due 30th May)                               |
+| 6   | 6/06/2022  |                                                                |
+| 7   | 13/06/2022 |                                                                |
+| 8   | 20/06/2022 |                                                                |
+| 9   | 27/06/2022 |                                                                |
+| 10  | 4/07/2022  |                                                                |
+
+---
+
+## 02/05/2022
+
+| Chair | Attendees | Apologies |
+| ----- | --------- | --------- |
+| Phi   | All       | N/A       |
+
+### Agenda
+
+- High level timeline 
+
+### Minutes
+
+- For Plans & Progress we need to document it along the way 
+- PoC: Barcode that will point into an ingredients database (product IDs - barcodes etc) 
+- 2nd list is ingredients list itself, confirming if vegan or not 
+
+### Actions
+
+- Create draft report Steph - Due 5th May 
+- 5 ingredients Each - Due 5th May 
+- Our section for Plans & Progress - Due 8th May 
+
+|       | Week       | Activity                                                                                                                                                                                                                                               |
+| ----- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 1     | 2/05/2022  | Basic database of ingredients (5 each for initial sample size) Complete our first bit of writing                                                                                                                                                       |
+| 2     | 9/05/2022  | Review Project Description Scope and Limits Vegan ingredients classification database Commence basic Interface build - for the user to interact with the app and the app to interact with database Dibbo to film the problem, Phi to create storyboard |
+| 3     | 16/05/2022 | Prototype Iteration review - learnings - refine plan Test                                                                                                                                                                                              |
+| 4     | 23/05/2022 | Record Presentation Finalise Report Writing (Plans & Progress finalisation)                                                                                                                                                                            |
+| 5     | 30/05/2022 | Submit Assessment (Due 30th May)                                                                                                                                                                                                                       |
+| 6     | 6/06/2022  |                                                                                                                                                                                                                                                        |
+| 7     | 13/06/2022 |                                                                                                                                                                                                                                                        |
+| 8     | 20/06/2022 |                                                                                                                                                                                                                                                        |
+| 9     | 27/06/2022 |                                                                                                                                                                                                                                                        |
+| 10    | 4/07/2022  | App available for IOS & Android, solid user interface, a lot of documentation (pre release)                                                                                                                                                            |
+| Solid |            |                                                                                                                                                                                                                                                        |
+
+---
+
+## 06/05/2022
+
+| Chair | Attendees | Apologies |
+| ----- | --------- | --------- |
+| Phi   | All       | Junior    |
+
+### Agenda
+
+- High level timeline 
+
+### Minutes
+
+- Talk through story board Phi prepared for the presentation - all happy with it (ad beginning, then how the tech works, then the solution) 
+- Need to break down the script & slides for presentation 
+- All to finish their piece for the report research 
+- Break down next pieces of work on Monday's meeting - should we finish the presentation component next week? 
+
+### Actions
+
+- Create draft report Steph - Due 8th May 
+- 5 ingredients Each - Due 8th May 
+- Our section for Plans & Progress - Due 8th May 
+- Phi typing up story board - Due 8th May 
+
+|       | Week       | Activity                                                                                                                                                                                                                                               |
+| ----- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 1     | 2/05/2022  | Basic database of ingredients (5 each for initial sample size) Complete our first bit of writing Complete story board & submit draft for presentation                                                                                                  |
+| 2     | 9/05/2022  | Review Project Description Scope and Limits Vegan ingredients classification database Commence basic Interface build - for the user to interact with the app and the app to interact with database Dibbo to film the problem, Phi to create storyboard |
+| 3     | 16/05/2022 | Prototype Iteration review - learnings - refine plan Test                                                                                                                                                                                              |
+| 4     | 23/05/2022 | Record Presentation Finalise Report Writing (Plans & Progress finalisation)                                                                                                                                                                            |
+| 5     | 30/05/2022 | Submit Assessment (Due 30th May)                                                                                                                                                                                                                       |
+| 6     | 6/06/2022  |                                                                                                                                                                                                                                                        |
+| 7     | 13/06/2022 |                                                                                                                                                                                                                                                        |
+| 8     | 20/06/2022 |                                                                                                                                                                                                                                                        |
+| 9     | 27/06/2022 |                                                                                                                                                                                                                                                        |
+| 10    | 4/07/2022  | App available for IOS & Android, solid user interface, a lot of documentation (pre release)                                                                                                                                                            |
+| Solid |            |                                                                                                                                                                                                                                                        |
+
+---
+
+## 09/05/2022
+
+| Chair | Attendees | Apologies |
+| ----- | --------- | --------- |
+| Phi   | All       |           |
+
+### Agenda
+
+- High level timeline 
+
+### Minutes
+
+- Broke the work into 4 main streams for Group Members to lead 
+- Agreed on the additional features if paying: 
+- providing alternative brands, products, 
+- nutritional planner 
+- local restaurants that serve vegan food 
+
+- meal planners 
+- Agreed on Application Name: 'Doin' The Vegan Thing!'
+- Slogan: 'Do the Vegan Thing'
+
+### Actions
+
+- Create draft report Steph - Due 12th May 
+- 5 ingredients Each - Due 12th May 
+- Our section for Plans & Progress - Due 12th May 
+- Phi typing up story board - Done 
+
+|     | Week       | Activity                                                                                                                                                                                                                                                                                                                                                                                                    |
+| --- | ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | 2/05/2022  | Basic database of ingredients (5 each for initial sample size) Complete our first bit of writing Complete story board & submit draft for presentation                                                                                                                                                                                                                                                       |
+| 2   | 9/05/2022  | Report (Phi): Review Project Description Scope and Limits Detailed description - Aims Prototype (Jacob): Vegan ingredients classification database Commence basic Interface build - for the user to interact with the app and the app to interact with database Presentation (Steph): Script - dot points PowerPoint Video acting Artefacts (Gigs): Wireframes Site Map Logo (Gigs): Skills & Jobs (Dibbo): |
+| 3   | 16/05/2022 | Prototype finalised Iteration review - learnings - refine plan Testing                                                                                                                                                                                                                                                                                                                                      |
+| 4   | 23/05/2022 | Record Presentation Finalise Report Writing (Plans & Progress finalisation)                                                                                                                                                                                                                                                                                                                                 |
+| 5   | 30/05/2022 | Submit Assessment (Due 30th May)                                                                                                                                                                                                                                                                                                                                                                            |
+| 6   | 6/06/2022  |                                                                                                                                                                                                                                                                                                                                                                                                             |
+| 7   | 13/06/2022 |                                                                                                                                                                                                                                                                                                                                                                                                             |
+| 8   | 20/06/2022 |                                                                                                                                                                                                                                                                                                                                                                                                             |
+| 9   | 27/06/2022 |                                                                                                                                                                                                                                                                                                                                                                                                             |
+| 10  | 4/07/2022  | App available for IOS & Android, solid user interface, a lot of documentation (pre release)                                                                                                                                                                                                                                                                                                                 |
+
+---
+
+## 12/05/2022
+
+| Chair | Attendees | Apologies |
+| ----- | --------- | --------- |
+| Phi   | All       | Jacob     |
+
+### Agenda
+
+- High level timeline 
+
+### Minutes:
+
+- Quick Check In 
+
+### Actions
+
+|     | Week       | Activity                                                                                                                                                                                                                                                                                                                                                                                                    |
+| --- | ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | 2/05/2022  | Basic database of ingredients (5 each for initial sample size) Complete our first bit of writing Complete story board & submit draft for presentation                                                                                                                                                                                                                                                       |
+| 2   | 9/05/2022  | Report (Phi): Review Project Description Scope and Limits Detailed description - Aims Prototype (Jacob): Vegan ingredients classification database Commence basic Interface build - for the user to interact with the app and the app to interact with database Presentation (Steph): Script - dot points PowerPoint Video acting Artefacts (Gigs): Wireframes Site Map Logo (Gigs): Skills & Jobs (Dibbo): |
+| 3   | 16/05/2022 | Prototype finalised Iteration review - learnings - refine plan Testing                                                                                                                                                                                                                                                                                                                                      |
+| 4   | 23/05/2022 | Record Presentation Finalise Report Writing (Plans & Progress finalisation)                                                                                                                                                                                                                                                                                                                                 |
+| 5   | 30/05/2022 | Submit Assessment (Due 30th May)                                                                                                                                                                                                                                                                                                                                                                            |
+| 6   | 6/06/2022  |                                                                                                                                                                                                                                                                                                                                                                                                             |
+| 7   | 13/06/2022 |                                                                                                                                                                                                                                                                                                                                                                                                             |
+| 8   | 20/06/2022 |                                                                                                                                                                                                                                                                                                                                                                                                             |
+| 9   | 27/06/2022 |                                                                                                                                                                                                                                                                                                                                                                                                             |
+| 10  | 4/07/2022  | App available for IOS & Android, solid user interface, a lot of documentation (pre release)                                                                                                                                                                                                                                                                                                                 |
+
+---
+
+## 16/05/2022
+
+| Chair | Attendees | Apologies |
+| ----- | --------- | --------- |
+| Phi   | All       | Junior    |
+
+### Agenda
+
+- Review report
+- Review PowerPoint Presentation
+- Jacob showcase Database, Interface and Barcode Scanning
+- Gigs Prototype showcase
+
+### Minutes
+
+
+### Actions
+
+- Steph to Update Risks on Ingredients 
+- Complete Plans and Progress - Phi, Jacob, and Steph 
+- Scope and Limits - Steph and Dibbo 
+- Phi to update plans and progress 
+
+|     | Week       | Activity                                                                                                                                                                                                                                                                                                                                                                                                    |
+| --- | ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | 2/05/2022  | Basic database of ingredients (5 each for initial sample size) Complete our first bit of writing Complete story board & submit draft for presentation                                                                                                                                                                                                                                                       |
+| 2   | 9/05/2022  | Report (Phi): Review Project Description Scope and Limits Detailed description - Aims Prototype (Jacob): Vegan ingredients classification database Commence basic Interface build - for the user to interact with the app and the app to interact with database Presentation (Steph): Script - dot points PowerPoint Video acting Artefacts (Gigs): Wireframes Site Map Logo (Gigs): Skills & Jobs (Dibbo): |
+| 3   | 16/05/2022 | Phase 1 Prototype finalised - Barcode Scanner Iteration review - learnings - refine plan Testing                                                                                                                                                                                                                                                                                                            |
+| 4   | 23/05/2022 | Record Presentation Finalise Report Writing (Plans & Progress finalisation)                                                                                                                                                                                                                                                                                                                                 |
+| 5   | 30/05/2022 | Submit Assessment (Due 30th May)                                                                                                                                                                                                                                                                                                                                                                            |
+| 6   | 6/06/2022  | Build Recipe Database Create small sample for Prototype of recipes, ensure ingredients are from the ingredients Database list                                                                                                                                                                                                                                                                               |
+| 7   | 13/06/2022 | Index Ingredients Database to Recipe Database: Investigate how to cross the recipes to the ingredients database so that there's a way that the recipes are composed of the ingredients database to ensure informational accuracy.                                                                                                                                                                           |
+| 8   | 20/06/2022 | Integrate Recipe Database Create the User Interface in the application - graphics, links, wireframes updated                                                                                                                                                                                                                                                                                                |
+| 9   | 27/06/2022 | Phase 2 Prototype Testing & Updates Documentation of Phase 2 Prototype                                                                                                                                                                                                                                                                                                                                      |
+| 10  | 3/07/2022  | Set up Kick-Starter Complete artefacts on Phase 2 Prototype                                                                                                                                                                                                                                                                                                                                                 |
+| 11  | 10/07/2022 |                                                                                                                                                                                                                                                                                                                                                                                                             |
+| 12  | 17/07/2022 |                                                                                                                                                                                                                                                                                                                                                                                                             |
+| 13  | 24/07/2022 |                                                                                                                                                                                                                                                                                                                                                                                                             |
+| 14  | 31/07/2022 |                                                                                                                                                                                                                                                                                                                                                                                                             |
+| 15  | 07/08/2022 |                                                                                                                                                                                                                                                                                                                                                                                                             |
+
+---
+
+## 19/05/2022
+
+| Chair | Attendees | Apologies |
+| ----- | --------- | --------- |
+| Phi   | All       |           |
+
+### Agenda
+
+- Check in
+- Allocation of final tasks
+
+### Minutes
+
+- Wednesday all tasks complete - FINAL DEADLINE 
+- So Jacob can update website and Steph can finalise report 
+
+### Actions
+
+#### Jacob: 
+
+- Complete Plans and Progress  
+- Update the databases section in the report 
+- Provide updated website link 
+- Add info on the testing 
+
+- Update Website with Final Report 
+
+#### Phi: 
+
+- Update plans and progress with sub headings etc. 
+- Update Github Commit Trail section 
+
+#### Gigs: 
+
+- Insert all artefacts into Word Doc - notify Steph once done to include in presentation 
+
+#### Dibbo: 
+
+- Dibbo to update Skills and Jobs 
+- Scope and Limits (work with Steph) 
+
+#### Steph 
+
+- Steph to record video for presentation before Sunday 
+- Update A3 word doc 
+- Update Teams meetings log 
+
+|     | Week       | Activity                                                                                                                                                                                                                                                                                                                                                                                                    |
+| --- | ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | 2/05/2022  | Basic database of ingredients (5 each for initial sample size) Complete our first bit of writing Complete story board & submit draft for presentation                                                                                                                                                                                                                                                       |
+| 2   | 9/05/2022  | Report (Phi): Review Project Description Scope and Limits Detailed description - Aims Prototype (Jacob): Vegan ingredients classification database Commence basic Interface build - for the user to interact with the app and the app to interact with database Presentation (Steph): Script - dot points PowerPoint Video acting Artefacts (Gigs): Wireframes Site Map Logo (Gigs): Skills & Jobs (Dibbo): |
+| 3   | 16/05/2022 | Phase 1 Prototype finalised - Barcode Scanner Iteration review - learnings - refine plan Testing                                                                                                                                                                                                                                                                                                            |
+| 4   | 23/05/2022 | Record Presentation Finalise Report Writing (Plans & Progress finalisation)                                                                                                                                                                                                                                                                                                                                 |
+| 5   | 30/05/2022 | Submit Assessment (Due 30th May)                                                                                                                                                                                                                                                                                                                                                                            |
+| 6   | 6/06/2022  | Build Recipe Database                                                                                                                                                                                                                                                                                                                                                                                       |
+| 7   | 13/06/2022 | Create small sample for Prototype of recipes, ensure ingredients are from the ingredients Database list                                                                                                                                                                                                                                                                                                     |
+| 8   | 20/06/2022 | Index Ingredients Database to Recipe Database                                                                                                                                                                                                                                                                                                                                                               |
+| 9   | 27/06/2022 | Investigate how to cross the recipes to the ingredients database so that there's a way that the recipes are composed of the ingredients database to ensure informational accuracy.                                                                                                                                                                                                                          |
+| 10  | 3/07/2022  | Integrate Recipe Database                                                                                                                                                                                                                                                                                                                                                                                   |
+| 11  | 10/07/2022 | Create the User Interface in the application - graphics, links, wireframes updated                                                                                                                                                                                                                                                                                                                          |
+| 12  | 17/07/2022 | Phase 2 Prototype Testing & Updates                                                                                                                                                                                                                                                                                                                                                                         |
+| 13  | 24/07/2022 | Documentation of Phase 2 Prototype                                                                                                                                                                                                                                                                                                                                                                          |
+| 14  | 31/07/2022 | Set up Kick-Starter                                                                                                                                                                                                                                                                                                                                                                                         |
+| 15  | 07/08/2022 | Complete artefacts on Phase 2 Prototype                                                                                                                                                                                                                                                                                                                                                                     |
+
+---
+
+## 23/05/2022
+
+| Chair | Attendees | Apologies |
+| ----- | --------- | --------- |
+| Phi   | All       |           |
+
+### Agenda
+
+- Check in
+- Allocation of final tasks
+
+### Minutes
+
+- Wednesday all tasks complete - FINAL DEADLINE 
+- So Jacob can update website and Steph can finalise report 
+
+### Actions
+
+#### Jacob: 
+
+- Complete Plans and Progress  
+- Update the databases section in the report 
+- Provide updated website link 
+- Add info on the testing 
+
+- Update Website with Final Report 
+
+#### Phi: 
+
+- Update plans and progress with sub headings etc. 
+- Update Github Commit Trail section 
+
+#### Gigs: 
+
+- Insert all artefacts into Word Doc - notify Steph once done to include in presentation 
+
+#### Dibbo: 
+
+- Dibbo to update Skills and Jobs 
+- Scope and Limits (work with Steph) 
+
+#### Steph 
+
+- Steph to record video for presentation before Sunday 
+- Update A3 word doc 
+- Update Teams meetings log 
+
+|     | Week       | Activity                                                                                                                                                                                                                                                                                                                                                                                                    |
+| --- | ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | 2/05/2022  | Basic database of ingredients (5 each for initial sample size) Complete our first bit of writing Complete story board & submit draft for presentation                                                                                                                                                                                                                                                       |
+| 2   | 9/05/2022  | Report (Phi): Review Project Description Scope and Limits Detailed description - Aims Prototype (Jacob): Vegan ingredients classification database Commence basic Interface build - for the user to interact with the app and the app to interact with database Presentation (Steph): Script - dot points PowerPoint Video acting Artefacts (Gigs): Wireframes Site Map Logo (Gigs): Skills & Jobs (Dibbo): |
+| 3   | 16/05/2022 | Phase 1 Prototype finalised - Barcode Scanner Iteration review - learnings - refine plan Testing                                                                                                                                                                                                                                                                                                            |
+| 4   | 23/05/2022 | Record Presentation Finalise Report Writing (Plans & Progress finalisation)                                                                                                                                                                                                                                                                                                                                 |
+| 5   | 30/05/2022 | Submit Assessment (Due 30th May)                                                                                                                                                                                                                                                                                                                                                                            |
+| 6   | 6/06/2022  | Build Recipe Database                                                                                                                                                                                                                                                                                                                                                                                       |
+| 7   | 13/06/2022 | Create small sample for Prototype of recipes, ensure ingredients are from the ingredients Database list                                                                                                                                                                                                                                                                                                     |
+| 8   | 20/06/2022 | Index Ingredients Database to Recipe Database                                                                                                                                                                                                                                                                                                                                                               |
+| 9   | 27/06/2022 | Investigate how to cross the recipes to the ingredients database so that there's a way that the recipes are composed of the ingredients database to ensure informational accuracy.                                                                                                                                                                                                                          |
+| 10  | 3/07/2022  | Integrate Recipe Database                                                                                                                                                                                                                                                                                                                                                                                   |
+| 11  | 10/07/2022 | Create the User Interface in the application - graphics, links, wireframes updated                                                                                                                                                                                                                                                                                                                          |
+| 12  | 17/07/2022 | Phase 2 Prototype Testing & Updates                                                                                                                                                                                                                                                                                                                                                                         |
+| 13  | 24/07/2022 | Documentation of Phase 2 Prototype                                                                                                                                                                                                                                                                                                                                                                          |
+| 14  | 31/07/2022 | Set up Kick-Starter                                                                                                                                                                                                                                                                                                                                                                                         |
+| 15  | 07/08/2022 | Complete artefacts on Phase 2 Prototype                                                                                                                                                                                                                                                                                                                                                                     |
+---
+
+## 26/05/2022
+
+| Chair                  | Attendees | Apologies |
+| ---------------------- | --------- | --------- |
+| Jacob & Dibbo & Junior | All       | Phi       |
+
+### Agenda 
+
+- Check In 
+- Allocation of final tasks 
+
+### Minutes
+
+- Quick Check in on final items 
+
+### Actions
+
+#### Jacob: 
+
+- Complete Plans and Progress  
+- Update the databases section in the report 
+- Provide updated website link 
+- Add info on the testing 
+- Update Website with Final Report 
+
+#### Phi: 
+
+- Update plans and progress with sub headings etc. 
+- Update Github Commit Trail section 
+- Phi reviewing A2 recycled work to fit A3 
+
+#### Gigs: 
+
+- Insert all artefacts into Word Doc 
+  
+#### Dibbo: 
+
+- Dibbo to update Skills and Jobs - almost done 
+- Scope and Limits - will be done by Wednesday 
+
+#### Steph 
+
+- Steph to record video for presentation before Sunday 
+- Update A3 word doc - 
+- Update Teams meetings log 
+- A3 Contribution 
