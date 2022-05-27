@@ -32,4 +32,4 @@ As mentioned, a library of ingredients is stored by name, a brief description, a
 
 Similarly, if an ingredient is not successfully identified, a visual indicator will be used to notify the user, where they may choose to contribute information to the central database. They will be prompted of several pieces of information, such as to pick whether it is a) undeniably vegan, b) undeniably not vegan or c) questionable, a product name, a list of common identifiers, such as keywords, adjectives and common uses. 
 
-[Next](/project/skills.html)
+[Next](/project/skills.md)

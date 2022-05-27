@@ -39,4 +39,4 @@ As we build the Vegan Application, both UI & UX must be user friendly to less co
 
 It would be very feasible to set up a project team to set up this project, to ensure more success more research would be required and testing post prototype build. 
 
-[Next](/project/outcome.html)
+[Next](/project/outcome.md)

@@ -15,4 +15,4 @@ Users can also click on the ‘photo album’, which will be accessed as a squar
 
 Other than the main feature to scan ingredients, the app will have an additional user input option. This is to copy and paste text into an ingredient checker, which will provide the same output as the application scanner. This provides users the option to either check an ingredient list, or to check a single ingredient. 
 
-[Next](/project/tools-and-technologies.html)
+[Next](/project/tools-and-technologies.md)

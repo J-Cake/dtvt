@@ -22,4 +22,4 @@ The idea of knowing that manufacturer X uses vegan products would build customer
 
 With the integration of NLP and machine learning, the app would be able to process and learn user preferences and make relevant suggestions for daily intake. Further development could allow this app to integrate with the current market smart assistants and be a necessary part of every vegans daily planner.
 
-[References](/project/references.html)
+[References](/project/references.md)
