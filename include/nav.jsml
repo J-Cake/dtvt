@@ -39,7 +39,7 @@ header {
                 a href = '/vegan/aims.md' [Aims]
                 a href = '/vegan/plans-and-progress.md' [Plans and Progress]
                 a href = '/vegan/roles-scopes-limits.md' [Roles, Scopes and Limits]
-                a href = '/vegan/testing-and-timelime.md' [Testing and Timelines]
+                a href = '/vegan/testing-and-timeline.md' [Testing and Timelines]
                 a href = '/vegan/risks-and-data.md' [Risks and Data Integrity]
                 a href = '/vegan/prototypes.nhp' [Prototype]
 
